@@ -10,7 +10,7 @@ Se você deseja acessar a documentação completa do Meta sobre `Flows`, [clique
 
 - [Componentes](components/README.md)
 - [Tipos de Flows](types-of-flows/README.md)
-- [Estrutura do Flow]()
+- [Estrutura do Flow](structure/README.md)
 - [Flows dinâmicos](dynamic-flows/README.md)
   - [Endpoint](dynamic-flows/README.md#endpoint)
 - [Exemplos](samples/README.md)
