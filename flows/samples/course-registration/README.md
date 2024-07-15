@@ -4,6 +4,10 @@
 
 ### Meta - Código fonte
 
-https://github.com/positusapps/quick-docs/blob/main/flows/samples/course-registration/source-code.json
+Este é o código `json` que deve ser utilizado durante a criação do `Flow`.
 
-Para acessar o código json que deve-se utilizar durante a criação do `Flow` [clique aqui](source-code.json).
+https://github.com/positusapps/quick-docs/blob/cd9c9d6fa0587643d1ba12ddf761f79a992469ac/flows/samples/course-registration/source-code.json#L1-L194
+
+### Server - Código endpoint
+
+> Indisponível no momento
