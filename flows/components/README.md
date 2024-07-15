@@ -1,3 +1,3 @@
 # WhatsApp Flows
 
-## Components
+## Componentes

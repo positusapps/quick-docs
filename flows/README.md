@@ -8,7 +8,8 @@ Se você deseja acessar a documentação completa do Meta sobre `Flows`, [clique
 
 ## Aprenda sobre WhatsApp Flows
 
-- [Componentes](COMPONENTS.md)
+- [Componentes](components/README.md)
 - [Tipos de Flows](types-of-flows/README.md)
 - [Flows dinâmicos](dynamic-flows/README.md)
-  - [Endpoints](dynamic-flows/README.md#endpoints)
+  - [Endpoint](dynamic-flows/README.md#endpoint)
+- [Exemplos](samples/README.md)

@@ -1,0 +1,194 @@
+{
+	"version": "3.1",
+	"data_api_version": "3.0",
+	"routing_model": {
+		"REGISTER": [
+			"REGISTRATION_SUCCESS",
+			"REGISTRATION_DISABLED"
+		],
+		"REGISTRATION_SUCCESS": [],
+		"REGISTRATION_DISABLED": []
+	},
+	"screens": [
+		{
+			"id": "REGISTER",
+			"title": "Cadastrar-me na turma",
+			"data": {},
+			"layout": {
+				"type": "SingleColumnLayout",
+				"children": [
+					{
+						"type": "TextHeading",
+						"text": "Cadastre-se na nossa próxima turma"
+					},
+					{
+						"type": "TextBody",
+						"text": "A nossa próxima turma irá se iniciar no dia 01/08, cadastre-se agora."
+					},
+					{
+						"type": "Form",
+						"name": "form",
+						"children": [
+							{
+								"type": "TextInput",
+								"name": "firstName",
+								"label": "Primeiro nome",
+								"input-type": "text",
+								"required": true
+							},
+							{
+								"type": "TextInput",
+								"label": "Último nome",
+								"name": "lastName",
+								"input-type": "text",
+								"required": true
+							},
+							{
+								"type": "TextInput",
+								"label": "E-mail",
+								"name": "email",
+								"input-type": "email",
+								"required": true
+							},
+							{
+								"type": "Footer",
+								"label": "Cadastrar",
+								"on-click-action": {
+									"name": "data_exchange",
+									"payload": {
+										"firstName": "${form.firstName}",
+										"lastName": "${form.lastName}",
+										"email": "${form.email}"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "REGISTRATION_SUCCESS",
+			"title": "Cadastro realizado",
+			"data": {
+				"firstName": {
+					"type": "string",
+					"__example__": "Example"
+				},
+				"lastName": {
+					"type": "string",
+					"__example__": "Example"
+				},
+				"email": {
+					"type": "string",
+					"__example__": "Example"
+				}
+			},
+			"terminal": true,
+			"success": true,
+			"layout": {
+				"type": "SingleColumnLayout",
+				"children": [
+					{
+						"type": "TextHeading",
+						"text": "Cadastro realizado com sucesso!"
+					},
+					{
+						"type": "TextSubheading",
+						"text": "Antes de você ir..."
+					},
+					{
+						"type": "TextBody",
+						"text": "Como você ficou sabendo do nosso curso?"
+					},
+					{
+						"type": "Form",
+						"name": "form",
+						"children": [
+							{
+								"type": "RadioButtonsGroup",
+								"label": "Escolha uma opção",
+								"required": true,
+								"name": "source",
+								"data-source": [
+									{
+										"id": "0",
+										"title": "Recomendação de um amigo"
+									},
+									{
+										"id": "1",
+										"title": "Propagandas"
+									},
+									{
+										"id": "2",
+										"title": "Motores de busca"
+									},
+									{
+										"id": "3",
+										"title": "Mídias sociais"
+									}
+								]
+							},
+							{
+								"type": "Footer",
+								"label": "Done",
+								"on-click-action": {
+									"name": "complete",
+									"payload": {
+										"source": "${form.source}",
+										"firstName": "${data.firstName}",
+										"lastName": "${data.lastName}",
+										"email": "${data.email}"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"id": "REGISTRATION_DISABLED",
+			"title": "Turma finalizada",
+			"terminal": true,
+			"layout": {
+				"type": "SingleColumnLayout",
+				"children": [
+					{
+						"type": "TextHeading",
+						"text": "Turma finalizada"
+					},
+					{
+						"type": "TextBody",
+						"text": "Infelizmente o cadastro para esta turma não está mais disponível, em breve lançaremos uma nova turma."
+					},
+					{
+						"type": "TextCaption",
+						"text": "Assinale a opção a baixo caso queira ser avisado sobre a próxima turma:"
+					},
+					{
+						"type": "Form",
+						"name": "sign_in_form",
+						"children": [
+							{
+								"type": "OptIn",
+								"label": "Eu gostaria de ser avisado sobre a próxima turma.",
+								"name": "optin"
+							},
+							{
+								"type": "Footer",
+								"label": "Fechar",
+								"on-click-action": {
+									"name": "complete",
+									"payload": {
+										"optin": "${form.optin}"
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
