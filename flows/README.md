@@ -1,11 +1,14 @@
 # WhatsApp Flows
 
-> WhatsApp Flows is a way to build structured interactions for business messaging. With Flows, businesses can define, configure, and customize messages with rich interactions that give customers more structure in the way they communicate.
+> `WhatsApp Flows` é uma forma de construir interações estruturadas para mensagens comerciais. Com o `Flows`, as empresas podem definir, configurar e personalizar mensagens com interações ricas que dão aos clientes mais estrutura na forma como se comunicam.
 
-![Flows Sample](images/flows-sample.png)
+![Flows](assets/images/flows-sample.png)
 
-If you want access to the complete Meta documentation regarding Flows, [click here](https://developers.facebook.com/docs/whatsapp/flows).
+Se você deseja acessar a documentação completa do Meta sobre `Flows`, [clique aqui](https://developers.facebook.com/docs/whatsapp/flows).
 
-## Learn About WhatsApp Flows
+## Aprenda sobre WhatsApp Flows
 
-- [Components](COMPONENTS.md)
+- [Componentes](COMPONENTS.md)
+- [Tipos de Flows](types-of-flows/README.md)
+- [Flows dinâmicos](dynamic-flows/README.md)
+  - [Endpoints](dynamic-flows/README.md#endpoints)
