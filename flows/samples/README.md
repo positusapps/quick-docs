@@ -2,7 +2,7 @@
 
 ## Exemplos
 
-A baixo possuem alguns exemplos de `Flows` para serem utilizados como referência:
+Abaixo possuem alguns exemplos de `Flows` para serem utilizados como referência:
 
 ### Flows estáticos
 
