@@ -13,4 +13,4 @@ https://github.com/positusapps/quick-docs/blob/cd9c9d6fa0587643d1ba12ddf761f79a9
 
 ### Server - Código endpoint
 
-> Indisponível no momento
+[Clique aqui](server) para acessar o código do servidor do endpoint deste `Flow`.
