@@ -1,0 +1,37 @@
+{
+    "name": "newsletter mensal",
+    "category": "MARKETING",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "HEADER",
+            "format": "IMAGE",
+            "example": {
+                "header_handle": [
+                    "(binary)"
+                ]
+            }
+        },
+        {
+            "type": "BODY",
+            "text": "Olá {{1}}, a nossa newsletter mensal está no ar, clique no botão a baixo agora mesmo.",
+            "example": {
+                "body_text": [
+                    [
+                        "Gabriel"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "BUTTONS",
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Acessar newsletter",
+                    "url": "https://site.com.br"
+                }
+            ]
+        }
+    ]
+}

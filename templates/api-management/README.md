@@ -246,13 +246,11 @@ Exemplo de criação de um template simples
 
 > Não esqueça de enviar os dados como **FormData**.
 
-```json
-```
+https://github.com/positusapps/quick-docs/blob/1f01f2b313948e7b58dfe8d8a45ca1a505f06c0c/templates/api-management/json/template-store-simple-body.json#L1-L18
 
 `Response`
 
-```json
-```
+https://github.com/positusapps/quick-docs/blob/1f01f2b313948e7b58dfe8d8a45ca1a505f06c0c/templates/api-management/json/template-store-simple-response.json#L1-L41
 
 ###### Criando um template com arquivos no header
 
@@ -263,115 +261,11 @@ Exemplo de criação de um template com arquivos no `header`:
 > Não esqueça de enviar os dados como **FormData**.
 
 ```json
-{
-    "name": "newsletter mensal",
-    "category": "MARKETING",
-    "language": "pt_BR",
-    "components": [
-        {
-            "type": "HEADER",
-            "format": "IMAGE",
-            "example": {
-                "header_handle": [
-                    "(binary)"
-                ]
-            }
-        },
-        {
-            "type": "BODY",
-            "text": "Olá {{1}}, a nossa newsletter mensal está no ar, clique no botão a baixo agora mesmo.",
-            "example": {
-                "body_text": [
-                    [
-                        "Gabriel"
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "BUTTONS",
-            "buttons": [
-                {
-                    "type": "URL",
-                    "text": "Acessar newsletter",
-                    "url": "https://site.com.br"
-                }
-            ]
-        }
-    ]
-}
 ```
 
 `Response`
 
 ```json
-{
-    "data": {
-        "id": "bdd3a694-5116-47ed-9175-f5acbe739d79",
-        "wa_id": "1725243708311138",
-        "status": {
-            "id": 1,
-            "code": "PENDING",
-            "description": "Pendente"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 13,
-            "code": "MARKETING",
-            "description": "Marketing"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "newsletter_mensal",
-        "components": [
-            {
-                "type": "HEADER",
-                "format": "IMAGE",
-                "example": {
-                    "header_handle": [
-                        "4::aW1hZ2UvanBlZw==:ARbsPlnfCjMj35DMsDEsoWgNcr1AYUlGgECyJA9h3Wj9R2dU_c1fk-Z9lX015FkB_A0LES6LVQBnn7QyYF54bgPDyt30anXKCrlH3Se4fV16Ig:e:1728149598:483680386418392:100050396492156:ARbNBHI-fuZNKfddvtY"
-                    ]
-                }
-            },
-            {
-                "type": "BODY",
-                "text": "Ol\u00e1 {{1}}, a nossa newsletter mensal est\u00e1 no ar, clique no bot\u00e3o a baixo agora mesmo.",
-                "example": {
-                    "body_text": [
-                        [
-                            "Gabriel"
-                        ]
-                    ]
-                }
-            },
-            {
-                "type": "BUTTONS",
-                "buttons": [
-                    {
-                        "type": "URL",
-                        "text": "Acessar newsletter",
-                        "url": "https:\/\/site.com.br"
-                    }
-                ]
-            }
-        ],
-        "header_file": {
-            "mime_type": "image\/jpeg",
-            "original_name": "Paschoalotto Gupy.jpg",
-            "name": "af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
-            "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
-            "size": "161.41 KB"
-        },
-        "created_at": "2024-10-01T17:33:23.000000Z",
-        "updated_at": "2024-10-01T17:33:23.000000Z"
-    }
-}
 ```
 
 ###### Criando um template do tipo carrossel
