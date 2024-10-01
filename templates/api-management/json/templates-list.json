@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": "e864d335-50b7-4cc8-a072-b585b68e428a",
+            "wa_id": "211647153820823",
+            "status": {
+                "id": 2,
+                "code": "APPROVED",
+                "description": "Aprovado"
+            },
+            "quality_score": {
+                "id": 0,
+                "code": "UNKNOWN"
+            },
+            "category": {
+                "id": 15,
+                "code": "UTILITY",
+                "description": "Servi\u00e7os"
+            },
+            "language": {
+                "id": 17,
+                "code": "en_US",
+                "name": "English (US)"
+            },
+            "name": "sample_flight_confirmation",
+            "components": [
+                {
+                    "type": "HEADER",
+                    "format": "DOCUMENT"
+                },
+                {
+                    "type": "BODY",
+                    "text": "This is your flight confirmation for {{1}}-{{2}} on {{3}}."
+                },
+                {
+                    "type": "FOOTER",
+                    "text": "This message is from an unverified business."
+                }
+            ],
+            "header_file": null,
+            "carousel_files": [],
+            "created_at": "2021-08-25T07:21:18.000000Z",
+            "updated_at": "2024-10-01T13:14:48.000000Z"
+        }
+    ]
+}
