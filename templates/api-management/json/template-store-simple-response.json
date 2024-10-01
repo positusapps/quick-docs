@@ -1,0 +1,41 @@
+{
+    "data": {
+        "id": "a1bb46d6-0ec6-49ad-a7a0-4ed7f0f24b1b",
+        "wa_id": "894983259173415",
+        "status": {
+            "id": 1,
+            "code": "PENDING",
+            "description": "Pendente"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 13,
+            "code": "MARKETING",
+            "description": "Marketing"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "testeeeeeeeee",
+        "components": [
+            {
+                "type": "BODY",
+                "text": "Ol\u00e1 {{1}}, tudo bem, temos uma atualiza\u00e7\u00e3o sobre o seu pedido!",
+                "example": {
+                    "body_text": [
+                        [
+                            "Gabriel"
+                        ]
+                    ]
+                }
+            }
+        ],
+        "created_at": "2024-10-01T15:06:09.000000Z",
+        "updated_at": "2024-10-01T15:06:09.000000Z"
+    }
+}

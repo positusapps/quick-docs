@@ -230,9 +230,7 @@ Status code 204 - No Content
 
 Se já houver um template cadastrado com o nome informado será retornado:
 
-```sh
-
-```
+https://github.com/positusapps/quick-docs/blob/f06c260e191f0f6b6d19191d461fc6a5053c1839/templates/api-management/json/templates-validate-response-error.json#L1-L3
 
 #### Criando um template
 
@@ -249,70 +247,11 @@ Exemplo de criação de um template simples
 > Não esqueça de enviar os dados como **FormData**.
 
 ```json
-{
-    "name": "Meu primeiro template",
-    "category": "UTILITY",
-    "language": "pt_BR",
-    "components": [
-        {
-            "type": "BODY",
-            "text": "Olá {{1}}, tudo bem, temos uma atualização sobre o seu pedido!",
-            "example": {
-                "body_text": [
-                    [
-                        "Gabriel"
-                    ]
-                ]
-            }
-        }
-    ]
-}
 ```
 
 `Response`
 
 ```json
-{
-    "data": {
-        "id": "a1bb46d6-0ec6-49ad-a7a0-4ed7f0f24b1b",
-        "wa_id": "894983259173415",
-        "status": {
-            "id": 1,
-            "code": "PENDING",
-            "description": "Pendente"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 13,
-            "code": "MARKETING",
-            "description": "Marketing"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "testeeeeeeeee",
-        "components": [
-            {
-                "type": "BODY",
-                "text": "Ol\u00e1 {{1}}, tudo bem, temos uma atualiza\u00e7\u00e3o sobre o seu pedido!",
-                "example": {
-                    "body_text": [
-                        [
-                            "Gabriel"
-                        ]
-                    ]
-                }
-            }
-        ],
-        "created_at": "2024-10-01T15:06:09.000000Z",
-        "updated_at": "2024-10-01T15:06:09.000000Z"
-    }
-}
 ```
 
 ###### Criando um template com arquivos no header
