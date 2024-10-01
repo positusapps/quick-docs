@@ -11,7 +11,7 @@
 
 ### Introdução
 
-Os webhooks do workspace são de extrema importância para receber eventos sobre a qualidade dos números e dos templates, além de eventos sobre alteração de status da conta.
+Os webhooks do workspace são de extrema importância para receber eventos sobre a qualidade dos templates, flows e dos números, além de eventos sobre alteração de status da conta.
 
 É necessário [configurar um webhook no workspace](https://studio.posit.us/workspace/configuracoes) para receber as atualizações em tempo real.
 
