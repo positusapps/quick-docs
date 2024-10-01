@@ -11,6 +11,7 @@
     - [Criando um template simples](#criando-um-template-simples)
     - [Criando um template com arquivos no header](#criando-um-template-com-arquivos-no-header)
     - [Criando um template do tipo carrossel](#criando-um-template-do-tipo-carrossel)
+    - [Criando um template do tipo autenticação](#criando-um-template-do-tipo-autenticação)
   - [Deletando um template](#deletando-um-template)
 - [Webhooks](#webhooks)
 
@@ -182,6 +183,7 @@ Define o idioma do template.
   - [Criando um template simples](#criando-um-template-simples)
   - [Criando um template com arquivos no header](#criando-um-template-com-arquivos-no-header)
   - [Criando um template do tipo carrossel](#criando-um-template-do-tipo-carrossel)
+  - [Criando um template do tipo autenticação](#criando-um-template-do-tipo-autenticação)
 - [Deletando um template](#deletando-um-template)
 
 #### Listando todos os templates
@@ -764,6 +766,87 @@ Exemplo de criação de um template do tipo `carrossel`:
         ],
         "created_at": "2024-10-01T17:25:23.000000Z",
         "updated_at": "2024-10-01T17:25:23.000000Z"
+    }
+}
+```
+
+###### Criando um template do tipo autenticação
+
+Exemplo de criação de um template do tipo `autenticação`:
+
+`Body - FormData`
+
+> Não esqueça de enviar os dados como **FormData**
+
+```json
+{
+    "name": "Exemplo template autenticação",
+    "category": "AUTHENTICATION",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "BODY",
+            "add_security_recommendation": true
+        },
+        {
+            "type": "BUTTONS",
+            "buttons": [
+                {
+                    "type": "OTP",
+                    "otp_type": "copy_code",
+                    "text": "Copiar código"
+                }
+            ]
+        }
+    ]
+}
+```
+
+`Response`
+
+```json
+{
+    "data": {
+        "id": "0f60c187-4691-4965-9898-f41d799a7946",
+        "wa_id": "1224134558828762",
+        "status": {
+            "id": 2,
+            "code": "APPROVED",
+            "description": "Aprovado"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 16,
+            "code": "AUTHENTICATION",
+            "description": "Autentica\u00e7\u00e3o"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "Exemplo template autenticação",
+        "components": [
+            {
+                "type": "BODY",
+                "add_security_recommendation": "true"
+            },
+            {
+                "type": "BUTTONS",
+                "buttons": [
+                    {
+                        "type": "OTP",
+                        "otp_type": "copy_code",
+                        "text": "Copiar c\u00f3digo"
+                    }
+                ]
+            }
+        ],
+        "created_at": "2024-10-01T18:32:29.000000Z",
+        "updated_at": "2024-10-01T18:32:29.000000Z"
     }
 }
 ```
