@@ -8,7 +8,6 @@
   - [Eventos de Templates](#eventos-de-templates)
   - [Eventos de Números](#eventos-de-números)
   - [Eventos de Ativação de Números](#eventos-de-números)
-  - [Eventos de Workspaces](#eventos-de-workspaces)
 
 ### Introdução
 
@@ -69,9 +68,7 @@ https://github.com/positusapps/quick-docs/blob/99387492833866c9d8961c70642679370
 
 A estrutura dos webhooks relacionados a ativação de números recebidos é a seguinte:
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/4cf0a28ec3fadfa1e90dedce08a22be94f286806/webhooks/workspace-webhook/json/number-activation-webhook.json#L1-L30
 
 ## Precisa de ajuda?
 
