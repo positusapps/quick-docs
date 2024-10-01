@@ -274,15 +274,11 @@ Exemplo de criação de um template do tipo `carrossel`:
 
 > Não esqueça de enviar os dados como **FormData**.
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/793e16d102df12dbb6ebaf365e41d84e429f718f/templates/api-management/json/template-store-carrousel-body.json#L1-L91
 
 `Response`
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/793e16d102df12dbb6ebaf365e41d84e429f718f/templates/api-management/json/template-store-carrousel-response.json#L1-L130
 
 ###### Criando um template do tipo autenticação
 
@@ -293,76 +289,13 @@ Exemplo de criação de um template do tipo `autenticação`:
 > Não esqueça de enviar os dados como **FormData**
 
 ```json
-{
-    "name": "Exemplo template autenticação",
-    "category": "AUTHENTICATION",
-    "language": "pt_BR",
-    "components": [
-        {
-            "type": "BODY",
-            "add_security_recommendation": true
-        },
-        {
-            "type": "BUTTONS",
-            "buttons": [
-                {
-                    "type": "OTP",
-                    "otp_type": "copy_code",
-                    "text": "Copiar código"
-                }
-            ]
-        }
-    ]
-}
+
 ```
 
 `Response`
 
 ```json
-{
-    "data": {
-        "id": "0f60c187-4691-4965-9898-f41d799a7946",
-        "wa_id": "1224134558828762",
-        "status": {
-            "id": 2,
-            "code": "APPROVED",
-            "description": "Aprovado"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 16,
-            "code": "AUTHENTICATION",
-            "description": "Autentica\u00e7\u00e3o"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "Exemplo template autenticação",
-        "components": [
-            {
-                "type": "BODY",
-                "add_security_recommendation": "true"
-            },
-            {
-                "type": "BUTTONS",
-                "buttons": [
-                    {
-                        "type": "OTP",
-                        "otp_type": "copy_code",
-                        "text": "Copiar c\u00f3digo"
-                    }
-                ]
-            }
-        ],
-        "created_at": "2024-10-01T18:32:29.000000Z",
-        "updated_at": "2024-10-01T18:32:29.000000Z"
-    }
-}
+
 ```
 
 #### Deletando um template
@@ -393,54 +326,7 @@ Para acompanhar as atualizações dos templates, é recomendado que se [configur
 A estrutura dos webhooks recebidos é a seguinte:
 
 ```json
-{
-    "event": "message_template_sync",
-    "workspace": {
-        "id": "d4156ecf-f7cf-438b-b44e-8c4d8805c57d",
-        "name": "Positus",
-        "business_id": "112223522534868",
-        "waba_id": "1235395715662892"
-    },
-    "template": {
-        "id": "e180bg54-ef94-4da2-9349-66422e380c1d",
-        "status": {
-            "id": 2,
-            "code": "APPROVED",
-            "description": "Aprovado"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 15,
-            "code": "UTILITY",
-            "description": "Serviços"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "sample_movie_ticket_confirmation",
-        "components": [
-            {
-                "type": "HEADER",
-                "format": "IMAGE"
-            },
-            {
-                "type": "BODY",
-                "text": "Seu ingresso para *{{1}}*\n*Horário* - {{2}}\n*Local* - {{3}}\n*Assentos* - {{4}}"
-            },
-            {
-                "type": "FOOTER",
-                "text": "Esta mensagem é de uma empresa não verificada."
-            }
-        ],
-        "header_file": null,
-        "carousel_files": []
-    }
-}
+
 ```
 
 ## Precisa de ajuda?

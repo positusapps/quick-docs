@@ -1,0 +1,21 @@
+{
+    "name": "Exemplo template autenticação",
+    "category": "AUTHENTICATION",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "BODY",
+            "add_security_recommendation": true
+        },
+        {
+            "type": "BUTTONS",
+            "buttons": [
+                {
+                    "type": "OTP",
+                    "otp_type": "copy_code",
+                    "text": "Copiar código"
+                }
+            ]
+        }
+    ]
+}
