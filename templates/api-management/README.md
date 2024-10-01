@@ -298,7 +298,9 @@ Endpoint utilizado para criar um novo template:
             "text": "Olá {{1}}, tudo bem, temos uma atualização sobre o seu pedido!",
             "example": {
                 "body_text": [
-                    ["Caio"]
+                    [
+                        "Caio"
+                    ]
                 ]
             }
         }
@@ -309,7 +311,7 @@ Endpoint utilizado para criar um novo template:
 ###### Response
 
 ```json
-⁠ {
+⁠{
     "data": {
         "id": "a1bb46d6-0ec6-49ad-a7a0-4ed7f0f24b1b",
         "wa_id": "894983259173415",
@@ -378,7 +380,7 @@ Status code 204 - No Content
 
 Se já houver um template cadastrado com o nome informado será retornado:
 
-```json
+```sh
 ⁠{
     "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
 } ⁠
@@ -392,7 +394,7 @@ Endpoint utilizado para deletar um template específico de um workspace:
 
 ###### Response
 
-```json
+```sh
 Status code 204 - No Content
 ```
 
