@@ -288,6 +288,40 @@ Endpoint utilizado para exibir um template específico de um workspace:
 
 #### Criando um template
 
+Considerações antes de se criar um template:
+
+A propriedade `components` segue o padrão da meta, você pode acompanhar todas as possibilidades de componentes através da própria [documentação da Meta sobre componentes](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components).
+
+Caso seja efetuada a tentativa de criar um template com um nome já existente, será retornado erro, é recomendado verificar se já existe um template com o mesmo nome antes de se criar outro através do seguinte endpoint:
+
+##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/validate
+
+###### Body
+
+```json
+{
+    "name": "Meu primeiro template"
+}
+```
+
+###### Response Success
+
+Se não houver um template cadastrado com o nome informado será retornado:
+
+```sh
+Status code 204 - No Content
+```
+
+###### Response Error
+
+Se já houver um template cadastrado com o nome informado será retornado:
+
+```sh
+⁠{
+    "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
+} ⁠
+```
+
 Endpoint utilizado para criar um novo template:
 
 ##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates
@@ -716,40 +750,6 @@ Exemplo de criação de um template do tipo `carrossel`:
         "updated_at": "2024-10-01T17:25:23.000000Z"
     }
 }
-```
-
-Considerações antes de se criar um template:
-
-A propriedade `components` segue o padrão da meta, você pode acompanhar todas as possibilidades de componentes através da própria [documentação da Meta sobre componentes](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components).
-
-Caso seja efetuada a tentativa de criar um template com um nome já existente, será retornado erro, é recomendado verificar se já existe um template com o mesmo nome antes de se criar outro através do seguinte endpoint:
-
-##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/validate
-
-###### Body
-
-```json
-{
-    "name": "Meu primeiro template"
-}
-```
-
-###### Response Success
-
-Se não houver um template cadastrado com o nome informado será retornado:
-
-```sh
-Status code 204 - No Content
-```
-
-###### Response Error
-
-Se já houver um template cadastrado com o nome informado será retornado:
-
-```sh
-⁠{
-    "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
-} ⁠
 ```
 
 #### Deletando um template
