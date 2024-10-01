@@ -288,15 +288,11 @@ Exemplo de criação de um template do tipo `autenticação`:
 
 > Não esqueça de enviar os dados como **FormData**
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-body.json#L1-L21
 
 `Response`
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
 
 #### Deletando um template
 
@@ -325,9 +321,7 @@ Para acompanhar as atualizações dos templates, é recomendado que se [configur
 
 A estrutura dos webhooks recebidos é a seguinte:
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-webhook.json#L1-L48
 
 ## Precisa de ajuda?
 
