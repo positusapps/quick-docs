@@ -356,7 +356,7 @@ Endpoint utilizado para criar um novo template:
 
 > Considerações antes de se criar um template:
 
-Caso seja efetuada a tentativa de criar um template com um nome que já existe, será retornado erro, é recomendado verificar se já existe um template com o mesmo nome através do seguinte endpoint:
+Caso seja efetuada a tentativa de criar um template com um nome já existente, será retornado erro, é recomendado verificar se já existe um template com o mesmo nome antes de se criar outro através do seguinte endpoint:
 
 ##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/validate
 
@@ -399,3 +399,67 @@ Status code 204 - No Content
 ```
 
 ### Webhooks
+
+Para acompanhar as atualizações dos templates, é recomendado que se [configure um webhook no workspace](https://studio.posit.us/workspace/configuracoes) para receber as atualizações sobre os templates em tempo real.
+
+| Event Type | Description |
+| --- | --- |
+| message_template_created | Este evento é recebido quando um novo template é criado |
+| message_template_category_update | Este evento é recebido quando a categoria de um template é alterada pela Meta |
+| message_template_quality_update | Este evento é recebido quando a qualidade de um template muda |
+| message_template_status_update | Este evento é recebido quando o status do template muda |
+| message_template_deleted | Este evento é recebido quando um template é deletado |
+| message_template_sync | Este evento é recebido quando o sistema da Positus força uma sincronização com a Meta |
+
+A estrutura dos webhooks recebidos é a seguinte:
+
+```json
+{
+    "event": "message_template_sync",
+    "workspace": {
+        "id": "d4156ecf-f7cf-438b-b44e-8c4d8805c57d",
+        "name": "Positus",
+        "business_id": "112223522534868",
+        "waba_id": "1235395715662892"
+    },
+    "template": {
+        "id": "e180bg54-ef94-4da2-9349-66422e380c1d",
+        "status": {
+            "id": 2,
+            "code": "APPROVED",
+            "description": "Aprovado"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 15,
+            "code": "UTILITY",
+            "description": "Serviços"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "sample_movie_ticket_confirmation",
+        "components": [
+            {
+                "type": "HEADER",
+                "format": "IMAGE"
+            },
+            {
+                "type": "BODY",
+                "text": "Seu ingresso para *{{1}}*\n*Horário* - {{2}}\n*Local* - {{3}}\n*Assentos* - {{4}}"
+            },
+            {
+                "type": "FOOTER",
+                "text": "Esta mensagem é de uma empresa não verificada."
+            }
+        ],
+        "header_file": null,
+        "carousel_files": []
+    }
+}
+```
