@@ -216,9 +216,7 @@ Caso seja efetuada a tentativa de criar um template com um nome já existente, s
 
 `Body`
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/cb2f68223ec1de81b3b6e349f6756e49ab02acb4/templates/api-management/json/templates-validate-body.json#L1-L3
 
 `Response Success`
 
@@ -233,9 +231,7 @@ Status code 204 - No Content
 Se já houver um template cadastrado com o nome informado será retornado:
 
 ```sh
-⁠{
-    "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
-} ⁠
+
 ```
 
 #### Criando um template
