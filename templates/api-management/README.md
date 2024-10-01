@@ -204,8 +204,7 @@ Endpoint utilizado para exibir um template específico de um workspace:
 
 `Response`
 
-```json
-```
+https://github.com/positusapps/quick-docs/blob/e28abe037f7afbf256485a05cbf82a57c3d9daf8/templates/api-management/json/templates-show.json#L1-L44
 
 #### Considerações para criar um template
 
@@ -218,9 +217,7 @@ Caso seja efetuada a tentativa de criar um template com um nome já existente, s
 `Body`
 
 ```json
-{
-    "name": "Meu primeiro template"
-}
+
 ```
 
 `Response Success`
