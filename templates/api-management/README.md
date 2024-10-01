@@ -70,6 +70,8 @@ Define a categoria do template.
 
 Define se um template é do tipo `detalhe do pedido`.
 
+> Só é permitida a utilização desta propriedade caso o `Waba` relacionado ao `Workspace` possua permissão de enviar mensagens do tipo `order`.
+
 | Id | Description | Code | Status |
 | --- | --- | --- | --- |
 | 0 | Desconhecido | UNKNOWN | `not allowed` |
@@ -78,6 +80,8 @@ Define se um template é do tipo `detalhe do pedido`.
 #### Sub Category
 
 Define se um template é do tipo `status do pedido`.
+
+> Só é permitida a utilização desta propriedade caso o `Waba` relacionado ao `Workspace` possua permissão de enviar mensagens do tipo `order`.
 
 | Id | Description | Code | Status |
 | --- | --- | --- | --- |
@@ -164,6 +168,11 @@ Define o idioma do template.
 | 71 | Kyrgyz (Kyrgyzstan) | ky_KG | `allowed` |
 
 ### Referência da API
+
+- [Listando todos os templates](#listando-todos-os-templates)
+- [Exibindo um único template](#exibindo-um-único-template)
+- [Criando um template](#criando-um-template)
+- [Deletando um template](#deletando-um-template)
 
 #### Listando todos os templates
 
@@ -283,6 +292,8 @@ Endpoint utilizado para criar um novo template:
 
 ##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates
 
+Exemplo de criação de um template simples
+
 ###### Body - FormData
 
 > Não esqueça de enviar os dados como **FormData**.
@@ -290,7 +301,7 @@ Endpoint utilizado para criar um novo template:
 ```json
 {
     "name": "Meu primeiro template",
-    "category": "MARKETING",
+    "category": "UTILITY",
     "language": "pt_BR",
     "components": [
         {
@@ -299,7 +310,7 @@ Endpoint utilizado para criar um novo template:
             "example": {
                 "body_text": [
                     [
-                        "Caio"
+                        "Gabriel"
                     ]
                 ]
             }
@@ -342,7 +353,7 @@ Endpoint utilizado para criar um novo template:
                 "example": {
                     "body_text": [
                         [
-                            "Caio"
+                            "Gabriel"
                         ]
                     ]
                 }
@@ -354,7 +365,362 @@ Endpoint utilizado para criar um novo template:
 }
 ```
 
-> Considerações antes de se criar um template:
+Exemplo de criação de um template com arquivos no `header`:
+
+###### Body - FormData
+
+> Não esqueça de enviar os dados como **FormData**.
+
+```json
+{
+    "name": "newsletter mensal",
+    "category": "MARKETING",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "HEADER",
+            "format": "IMAGE",
+            "example": {
+                "header_handle": [
+                    "(binary)"
+                ]
+            }
+        },
+        {
+            "type": "BODY",
+            "text": "Olá {{1}}, a nossa newsletter mensal está no ar, clique no botão a baixo agora mesmo.",
+            "example": {
+                "body_text": [
+                    [
+                        "Gabriel"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "BUTTONS",
+            "buttons": [
+                {
+                    "type": "URL",
+                    "text": "Acessar newsletter",
+                    "url": "https://site.com.br"
+                }
+            ]
+        }
+    ]
+}
+```
+
+###### Response
+
+```json
+{
+    "data": {
+        "id": "bdd3a694-5116-47ed-9175-f5acbe739d79",
+        "wa_id": "1725243708311138",
+        "status": {
+            "id": 1,
+            "code": "PENDING",
+            "description": "Pendente"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 13,
+            "code": "MARKETING",
+            "description": "Marketing"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "newsletter_mensal",
+        "components": [
+            {
+                "type": "HEADER",
+                "format": "IMAGE",
+                "example": {
+                    "header_handle": [
+                        "4::aW1hZ2UvanBlZw==:ARbsPlnfCjMj35DMsDEsoWgNcr1AYUlGgECyJA9h3Wj9R2dU_c1fk-Z9lX015FkB_A0LES6LVQBnn7QyYF54bgPDyt30anXKCrlH3Se4fV16Ig:e:1728149598:483680386418392:100050396492156:ARbNBHI-fuZNKfddvtY"
+                    ]
+                }
+            },
+            {
+                "type": "BODY",
+                "text": "Ol\u00e1 {{1}}, a nossa newsletter mensal est\u00e1 no ar, clique no bot\u00e3o a baixo agora mesmo.",
+                "example": {
+                    "body_text": [
+                        [
+                            "Gabriel"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "BUTTONS",
+                "buttons": [
+                    {
+                        "type": "URL",
+                        "text": "Acessar newsletter",
+                        "url": "https:\/\/site.com.br"
+                    }
+                ]
+            }
+        ],
+        "header_file": {
+            "mime_type": "image\/jpeg",
+            "original_name": "Paschoalotto Gupy.jpg",
+            "name": "af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
+            "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
+            "size": "161.41 KB"
+        },
+        "created_at": "2024-10-01T17:33:23.000000Z",
+        "updated_at": "2024-10-01T17:33:23.000000Z"
+    }
+}
+```
+
+###### Body - FormData
+
+> Não esqueça de enviar os dados como **FormData**.
+
+Exemplo de criação de um template do tipo `carrossel`:
+
+```json
+{
+    "name": "Exemplo template carrossel",
+    "category": "MARKETING",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "BODY",
+            "text": "Olá {{1}}, os produtos que você estava de olho acabaram de chegar na nossa loja!",
+            "example": {
+                "body_text": [
+                    [
+                        "Gabriel"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "CAROUSEL",
+            "cards": [
+                {
+                    "components": [
+                        {
+                            "type": "HEADER",
+                            "format": "IMAGE",
+                            "example": {
+                                "header_handle": [
+                                    "(binary)"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BODY",
+                            "text": "Produto: {{1}}",
+                            "example": {
+                                "body_text": [
+                                    [
+                                        "Blusa plush preta"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BUTTONS",
+                            "buttons": [
+                                {
+                                    "type": "URL",
+                                    "text": "Comprar agora",
+                                    "url": "https://loja.com.br"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "components": [
+                        {
+                            "type": "HEADER",
+                            "format": "IMAGE",
+                            "example": {
+                                "header_handle": [
+                                    "(binary)"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BODY",
+                            "text": "Produto: {{1}}",
+                            "example": {
+                                "body_text": [
+                                    [
+                                        "Blusa plush verde"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BUTTONS",
+                            "buttons": [
+                                {
+                                    "type": "URL",
+                                    "text": "Comprar agora",
+                                    "url": "https://loja.com.br"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
+
+###### Response
+
+```json
+{
+    "data": {
+        "id": "5c0de172-a159-4f67-8318-42c76f99a6ec",
+        "wa_id": "1236731587519011",
+        "status": {
+            "id": 3,
+            "code": "REJECTED",
+            "description": "Rejeitado"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 13,
+            "code": "MARKETING",
+            "description": "Marketing"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "exemplo_template_carrossel",
+        "components": [
+            {
+                "type": "BODY",
+                "text": "Ol\u00e1 {{1}}, os produtos que voc\u00ea estava de olho acabaram de chegar na nossa loja!",
+                "example": {
+                    "body_text": [
+                        [
+                            "Gabriel"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "CAROUSEL",
+                "cards": [
+                    {
+                        "components": [
+                            {
+                                "type": "HEADER",
+                                "format": "IMAGE",
+                                "example": {
+                                    "header_handle": [
+                                        "4::aW1hZ2UvcG5n:ARYmoB1GN1J2OmL26BydRduq3ZDUdRGGftnPobkR2SUEFWj2eJ7X5gVY6Dp1Dx4aX7b0AxxTeGJdPoX-XwrHvtkCOiuY_3uLFn3zFXW7SA-WuA:e:1728149115:483680386418392:100050396492156:ARaLBVKzrCud9sL5Xvc\n4::aW1hZ2UvcG5n:ARYwcpq9tk3dQpsSCa-UJzBX7zoTTEO37PdA8r74T0qJhDkDCNYZF1Qapi1qCgC9Cev2aE5PI6UH9snGGTILm5qAx0pTZ22psF4muraPwxmsvA:e:1728149115:483680386418392:100050396492156:ARaLBslBE2gAE1cWqDU\n4::aW1hZ2UvcG5n:ARZ9bPLnJXfizt5VtQ6W5pKTLJE7NS06oTLm9rSJ9203pWWSpj2eMEWUirCC8vFgloar9daT_Bt26qe-Gj_k4yhoCcCHKMkz0Mpnk-bgrbqcrw:e:1728149115:483680386418392:100050396492156:ARZOFZPad6lOjDvkqBQ"
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BODY",
+                                "text": "Produto: {{1}}",
+                                "example": {
+                                    "body_text": [
+                                        [
+                                            "Blusa plush preta"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BUTTONS",
+                                "buttons": [
+                                    {
+                                        "type": "URL",
+                                        "text": "Comprar agora",
+                                        "url": "https:\/\/loja.com.br"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "type": "HEADER",
+                                "format": "IMAGE",
+                                "example": {
+                                    "header_handle": [
+                                        "4::aW1hZ2UvcG5n:ARaW2WfFaZpNS4gY-5DVZnoRnRp6lziJ7_41vIHpwNAGggieS7VxMZnepx_2ierS6loFpAsR6pNfaLJhHUK__w_WPdOgtRUY158tjQENJ0WiLg:e:1728149116:483680386418392:100050396492156:ARbovWbbmoDxgUJN1W4\n4::aW1hZ2UvcG5n:ARaD3e1Ndh_ZHrdu_yfIglekeRs_HTev_IU8LGpHHvmOAN6cLAX8e2w_DxlaiKCz4O7r4iP-Ue0m9bTG_cWDIASlZltwd8FJiyvc8XSXrgrocA:e:1728149117:483680386418392:100050396492156:ARaKwBPQFfcfrhzt9kU\n4::aW1hZ2UvcG5n:ARbkOUVAZ_Em2COJzc-2q-ErzwjgGrkx0q6liTqprak1kJdT2CbNbYZBIcKAfX9M-BQYUIllTTtuooELPwC_SRolP_pULASKc_Fo1Ln8gCRhgA:e:1728149116:483680386418392:100050396492156:ARbKEe_FPU2-86jqS_E"
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BODY",
+                                "text": "Produto: {{1}}",
+                                "example": {
+                                    "body_text": [
+                                        [
+                                            "Blusa plush verde"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BUTTONS",
+                                "buttons": [
+                                    {
+                                        "type": "URL",
+                                        "text": "Comprar agora",
+                                        "url": "https:\/\/loja.com.br"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "carousel_files": [
+            {
+                "mime_type": "image\/png",
+                "original_name": "01.png",
+                "name": "7f2e87f7-808f-4287-82df-8d239e8268f4.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7f2e87f7-808f-4287-82df-8d239e8268f4.png",
+                "size": "2.54 MB"
+            },
+            {
+                "mime_type": "image\/png",
+                "original_name": "02.png",
+                "name": "7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
+                "size": "2.52 MB"
+            }
+        ],
+        "created_at": "2024-10-01T17:25:23.000000Z",
+        "updated_at": "2024-10-01T17:25:23.000000Z"
+    }
+}
+```
+
+Considerações antes de se criar um template:
+
+A propriedade `components` segue o padrão da meta, você pode acompanhar todas as possibilidades de componentes através da própria [documentação da Meta sobre componentes](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components).
 
 Caso seja efetuada a tentativa de criar um template com um nome já existente, será retornado erro, é recomendado verificar se já existe um template com o mesmo nome antes de se criar outro através do seguinte endpoint:
 
