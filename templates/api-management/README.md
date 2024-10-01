@@ -310,7 +310,7 @@ Status code 204 - No Content
 
 Para acompanhar as atualizações dos templates, é recomendado que se [configure um webhook no workspace](https://studio.posit.us/workspace/configuracoes) para receber as atualizações sobre os templates em tempo real.
 
-Saiba mais sobre os possíveis eventos de webhook relacionados aos templates [clicando aqui] ().
+Saiba mais sobre os possíveis eventos de webhook relacionados aos templates [clicando aqui](https://github.com/positusapps/quick-docs/blob/main/webhooks/workspace-webhook/README.md#eventos-de-templates).
 
 ## Precisa de ajuda?
 

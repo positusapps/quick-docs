@@ -157,56 +157,7 @@ A estrutura dos webhooks recebidos é a seguinte:
 
 A estrutura dos webhooks recebidos é a seguinte:
 
-```json
-{
-    "event": "message_template_sync",
-    "workspace": {
-        "id": "d4156ecf-f7cf-438b-b44e-8c4d8805c57d",
-        "name": "Positus",
-        "business_id": "112223522534868",
-        "waba_id": "1235395715662892"
-    },
-    "template": {
-        "id": "e180bg54-ef94-4da2-9349-66422e380c1d",
-        "status": {
-            "id": 2,
-            "code": "APPROVED",
-            "description": "Aprovado"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 15,
-            "code": "UTILITY",
-            "description": "Serviços"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "sample_movie_ticket_confirmation",
-        "components": [
-            {
-                "type": "HEADER",
-                "format": "IMAGE"
-            },
-            {
-                "type": "BODY",
-                "text": "Seu ingresso para *{{1}}*\n*Horário* - {{2}}\n*Local* - {{3}}\n*Assentos* - {{4}}"
-            },
-            {
-                "type": "FOOTER",
-                "text": "Esta mensagem é de uma empresa não verificada."
-            }
-        ],
-        "header_file": null,
-        "carousel_files": []
-    }
-}
-```
+https://github.com/positusapps/quick-docs/blob/3f5372cb47da777afd19b0f9bae34b66f24490b4/webhooks/workspace-webhook/json/template-webhook.json#L1-L48
 
 ## Precisa de ajuda?
 
