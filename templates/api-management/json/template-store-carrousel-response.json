@@ -1,0 +1,130 @@
+{
+    "data": {
+        "id": "5c0de172-a159-4f67-8318-42c76f99a6ec",
+        "wa_id": "1236731587519011",
+        "status": {
+            "id": 3,
+            "code": "REJECTED",
+            "description": "Rejeitado"
+        },
+        "quality_score": {
+            "id": 0,
+            "code": "UNKNOWN"
+        },
+        "category": {
+            "id": 13,
+            "code": "MARKETING",
+            "description": "Marketing"
+        },
+        "language": {
+            "id": 46,
+            "code": "pt_BR",
+            "name": "Portuguese (BR)"
+        },
+        "name": "exemplo_template_carrossel",
+        "components": [
+            {
+                "type": "BODY",
+                "text": "Ol\u00e1 {{1}}, os produtos que voc\u00ea estava de olho acabaram de chegar na nossa loja!",
+                "example": {
+                    "body_text": [
+                        [
+                            "Gabriel"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "CAROUSEL",
+                "cards": [
+                    {
+                        "components": [
+                            {
+                                "type": "HEADER",
+                                "format": "IMAGE",
+                                "example": {
+                                    "header_handle": [
+                                        "4::aW1hZ2UvcG5n:ARYmoB1GN1J2OmL26BydRduq3ZDUdRGGftnPobkR2SUEFWj2eJ7X5gVY6Dp1Dx4aX7b0AxxTeGJdPoX-XwrHvtkCOiuY_3uLFn3zFXW7SA-WuA:e:1728149115:483680386418392:100050396492156:ARaLBVKzrCud9sL5Xvc\n4::aW1hZ2UvcG5n:ARYwcpq9tk3dQpsSCa-UJzBX7zoTTEO37PdA8r74T0qJhDkDCNYZF1Qapi1qCgC9Cev2aE5PI6UH9snGGTILm5qAx0pTZ22psF4muraPwxmsvA:e:1728149115:483680386418392:100050396492156:ARaLBslBE2gAE1cWqDU\n4::aW1hZ2UvcG5n:ARZ9bPLnJXfizt5VtQ6W5pKTLJE7NS06oTLm9rSJ9203pWWSpj2eMEWUirCC8vFgloar9daT_Bt26qe-Gj_k4yhoCcCHKMkz0Mpnk-bgrbqcrw:e:1728149115:483680386418392:100050396492156:ARZOFZPad6lOjDvkqBQ"
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BODY",
+                                "text": "Produto: {{1}}",
+                                "example": {
+                                    "body_text": [
+                                        [
+                                            "Blusa plush preta"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BUTTONS",
+                                "buttons": [
+                                    {
+                                        "type": "URL",
+                                        "text": "Comprar agora",
+                                        "url": "https:\/\/loja.com.br"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "components": [
+                            {
+                                "type": "HEADER",
+                                "format": "IMAGE",
+                                "example": {
+                                    "header_handle": [
+                                        "4::aW1hZ2UvcG5n:ARaW2WfFaZpNS4gY-5DVZnoRnRp6lziJ7_41vIHpwNAGggieS7VxMZnepx_2ierS6loFpAsR6pNfaLJhHUK__w_WPdOgtRUY158tjQENJ0WiLg:e:1728149116:483680386418392:100050396492156:ARbovWbbmoDxgUJN1W4\n4::aW1hZ2UvcG5n:ARaD3e1Ndh_ZHrdu_yfIglekeRs_HTev_IU8LGpHHvmOAN6cLAX8e2w_DxlaiKCz4O7r4iP-Ue0m9bTG_cWDIASlZltwd8FJiyvc8XSXrgrocA:e:1728149117:483680386418392:100050396492156:ARaKwBPQFfcfrhzt9kU\n4::aW1hZ2UvcG5n:ARbkOUVAZ_Em2COJzc-2q-ErzwjgGrkx0q6liTqprak1kJdT2CbNbYZBIcKAfX9M-BQYUIllTTtuooELPwC_SRolP_pULASKc_Fo1Ln8gCRhgA:e:1728149116:483680386418392:100050396492156:ARbKEe_FPU2-86jqS_E"
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BODY",
+                                "text": "Produto: {{1}}",
+                                "example": {
+                                    "body_text": [
+                                        [
+                                            "Blusa plush verde"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "BUTTONS",
+                                "buttons": [
+                                    {
+                                        "type": "URL",
+                                        "text": "Comprar agora",
+                                        "url": "https:\/\/loja.com.br"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "carousel_files": [
+            {
+                "mime_type": "image\/png",
+                "original_name": "01.png",
+                "name": "7f2e87f7-808f-4287-82df-8d239e8268f4.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7f2e87f7-808f-4287-82df-8d239e8268f4.png",
+                "size": "2.54 MB"
+            },
+            {
+                "mime_type": "image\/png",
+                "original_name": "02.png",
+                "name": "7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
+                "size": "2.52 MB"
+            }
+        ],
+        "created_at": "2024-10-01T17:25:23.000000Z",
+        "updated_at": "2024-10-01T17:25:23.000000Z"
+    }
+}

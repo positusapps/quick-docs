@@ -1,0 +1,91 @@
+{
+    "name": "Exemplo template carrossel",
+    "category": "MARKETING",
+    "language": "pt_BR",
+    "components": [
+        {
+            "type": "BODY",
+            "text": "Olá {{1}}, os produtos que você estava de olho acabaram de chegar na nossa loja!",
+            "example": {
+                "body_text": [
+                    [
+                        "Gabriel"
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "CAROUSEL",
+            "cards": [
+                {
+                    "components": [
+                        {
+                            "type": "HEADER",
+                            "format": "IMAGE",
+                            "example": {
+                                "header_handle": [
+                                    "(binary)"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BODY",
+                            "text": "Produto: {{1}}",
+                            "example": {
+                                "body_text": [
+                                    [
+                                        "Blusa plush preta"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BUTTONS",
+                            "buttons": [
+                                {
+                                    "type": "URL",
+                                    "text": "Comprar agora",
+                                    "url": "https://loja.com.br"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "components": [
+                        {
+                            "type": "HEADER",
+                            "format": "IMAGE",
+                            "example": {
+                                "header_handle": [
+                                    "(binary)"
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BODY",
+                            "text": "Produto: {{1}}",
+                            "example": {
+                                "body_text": [
+                                    [
+                                        "Blusa plush verde"
+                                    ]
+                                ]
+                            }
+                        },
+                        {
+                            "type": "BUTTONS",
+                            "buttons": [
+                                {
+                                    "type": "URL",
+                                    "text": "Comprar agora",
+                                    "url": "https://loja.com.br"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
