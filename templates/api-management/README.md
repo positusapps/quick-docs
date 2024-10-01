@@ -6,7 +6,7 @@
 - [Referência da API](#referência-da-api)
   - [Listando todos os templates](#listando-todos-os-templates)
   - [Exibindo um único template](#exibindo-um-único-template)
-  - [Criando um template](#criando-um-template)
+  - [Criando um template](#considerações-para-criar-um-template)
   - [Deletando um template](#deletando-um-template)
 - [Webhooks](#webhooks)
 
@@ -171,7 +171,7 @@ Define o idioma do template.
 
 - [Listando todos os templates](#listando-todos-os-templates)
 - [Exibindo um único template](#exibindo-um-único-template)
-- [Criando um template](#criando-um-template)
+- [Criando um template](#considerações-para-criar-um-template)
 - [Deletando um template](#deletando-um-template)
 
 #### Listando todos os templates
@@ -286,9 +286,7 @@ Endpoint utilizado para exibir um template específico de um workspace:
 }
 ```
 
-#### Criando um template
-
-Considerações antes de se criar um template:
+#### Considerações para criar um template
 
 A propriedade `components` segue o padrão da meta, você pode acompanhar todas as possibilidades de componentes através da própria [documentação da Meta sobre componentes](https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/components).
 
@@ -321,6 +319,8 @@ Se já houver um template cadastrado com o nome informado será retornado:
     "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
 } ⁠
 ```
+
+#### Criando um template
 
 Endpoint utilizado para criar um novo template:
 
