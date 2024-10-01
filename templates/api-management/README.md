@@ -334,7 +334,9 @@ Endpoint utilizado para criar um novo template:
 
 Exemplo de criação de um template simples
 
-###### Body - FormData
+###### Criando um template simples
+
+`Body - FormData`
 
 > Não esqueça de enviar os dados como **FormData**.
 
@@ -359,7 +361,7 @@ Exemplo de criação de um template simples
 }
 ```
 
-###### Response
+`Response`
 
 ```json
 {
@@ -405,9 +407,11 @@ Exemplo de criação de um template simples
 }
 ```
 
+###### Criando um template com arquivos no header
+
 Exemplo de criação de um template com arquivos no `header`:
 
-###### Body - FormData
+`Body - FormData`
 
 > Não esqueça de enviar os dados como **FormData**.
 
@@ -451,7 +455,7 @@ Exemplo de criação de um template com arquivos no `header`:
 }
 ```
 
-###### Response
+`Response`
 
 ```json
 {
@@ -523,9 +527,11 @@ Exemplo de criação de um template com arquivos no `header`:
 }
 ```
 
-###### Body - FormData
+`Body - FormData`
 
 > Não esqueça de enviar os dados como **FormData**.
+
+###### Criando um template do tipo carrossel
 
 Exemplo de criação de um template do tipo `carrossel`:
 
@@ -623,7 +629,7 @@ Exemplo de criação de um template do tipo `carrossel`:
 }
 ```
 
-###### Response
+`Response`
 
 ```json
 {
@@ -764,7 +770,7 @@ Endpoint utilizado para deletar um template específico de um workspace:
 
 ##### (DELETE) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/{TEMPLATE_ID}
 
-###### Response
+`Response`
 
 ```sh
 Status code 204 - No Content
