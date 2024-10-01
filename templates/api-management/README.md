@@ -7,6 +7,7 @@
   - [Listando todos os templates](#listando-todos-os-templates)
   - [Exibindo um único template](#exibindo-um-único-template)
   - [Criando um template](#criando-um-template)
+  - [Deletando um template](#deletando-um-template)
 - [Webhooks](#webhooks)
 
 ### Atributos
@@ -225,7 +226,7 @@ Endpoint utilizado para listar todos os templates de um workspace:
 
 Endpoint utilizado para exibir um template específico de um workspace:
 
-##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/{TEMAPLATE_ID}
+##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/{TEMPLATE_ID}
 
 ###### Response
 
@@ -293,11 +294,11 @@ Endpoint utilizado para criar um novo template:
     "language": "pt_BR",
     "components": [
         {
-            "type: "BODY",
+            "type": "BODY",
             "text": "Olá {{1}}, tudo bem, temos uma atualização sobre o seu pedido!",
             "example": {
                 "body_text": [
-                    [Caio]
+                    ["Caio"]
                 ]
             }
         }
@@ -381,6 +382,18 @@ Se já houver um template cadastrado com o nome informado será retornado:
 ⁠{
     "message": "J\u00e1 existe um template com este nome, insira um nome diferente."
 } ⁠
+```
+
+#### Deletando um template
+
+Endpoint utilizado para deletar um template específico de um workspace:
+
+##### (DELETE) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/{TEMPLATE_ID}
+
+###### Response
+
+```json
+Status code 204 - No Content
 ```
 
 ### Webhooks
