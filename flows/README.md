@@ -1,6 +1,6 @@
 # WhatsApp Flows
 
-> `WhatsApp Flows` é uma forma de construir interações estruturadas para mensagens comerciais. Com o `Flows`, as empresas podem definir, configurar e personalizar mensagens com interações ricas que dão aos clientes mais estrutura na forma como se comunicam.
+`WhatsApp Flows` é uma forma de construir interações estruturadas para mensagens comerciais. Com o `Flows`, as empresas podem definir, configurar e personalizar mensagens com interações ricas que dão aos clientes mais estrutura na forma como se comunicam.
 
 ![Flows](assets/images/flows-sample.png)
 

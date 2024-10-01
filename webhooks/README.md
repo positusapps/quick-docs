@@ -1,8 +1,8 @@
 # Webhooks
 
-> Webhooks são estruturas fundamentais para que os sistemas que são integrados com a Positus funcionem, através dos webhooks é possível receber informações sobre os recursos da Positus em tempo real.
->
-> São exemplos de webhooks: Recebimento de mensagens e status de mensagens, informações sobre os templates e informações sobre a conta Business da Meta.
+Webhooks são estruturas fundamentais para que os sistemas que são integrados com a Positus funcionem, através dos webhooks é possível receber informações sobre os recursos da Positus em tempo real.
+
+São exemplos de webhooks: Recebimento de mensagens e status de mensagens, informações sobre os templates e informações sobre a conta Business da Meta.
 
 ## Aprenda sobre Webhooks
 
