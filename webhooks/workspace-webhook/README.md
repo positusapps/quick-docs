@@ -33,7 +33,7 @@ Os webhooks do workspace são de extrema importância para receber eventos sobre
 
 A estrutura dos webhooks recebidos relacionados a flows é a seguinte:
 
-https://github.com/positusapps/quick-docs/blob/3f5372cb47da777afd19b0f9bae34b66f24490b4/webhooks/workspace-webhook/json/template-webhook.json#L1-L48
+https://github.com/positusapps/quick-docs/blob/dacb80ba35f8f666f31ca44c9b23b9021a743946/webhooks/workspace-webhook/json/flow-webhook.json#L1-L62
 
 #### Eventos de Templates
 
