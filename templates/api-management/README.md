@@ -194,7 +194,7 @@ Endpoint utilizado para listar todos os templates de um workspace:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blame/6df4c55cda1ab46026f913264a646c9867b77bde/templates/api-management/json/templates-list.json#L1-L46
+https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/templates/api-management/json/templates-list.json#L1-L46
 
 #### Exibindo um único template
 
