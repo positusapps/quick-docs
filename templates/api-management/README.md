@@ -372,7 +372,7 @@ Caso seja efetuada a tentativa de criar um template com um nome que já existe, 
 
 Se não houver um template cadastrado com o nome informado será retornado:
 
-```json
+```sh
 Status code 204 - No Content
 ```
 
