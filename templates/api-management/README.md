@@ -474,7 +474,7 @@ Exemplo de criação de um template com arquivos no `header`:
             "mime_type": "image\/jpeg",
             "original_name": "Paschoalotto Gupy.jpg",
             "name": "af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
-            "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
+            "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/af09984a-fbe5-4bf5-8ee3-8c4e706297ec.jpg",
             "size": "161.41 KB"
         },
         "created_at": "2024-10-01T17:33:23.000000Z",
@@ -701,14 +701,14 @@ Exemplo de criação de um template do tipo `carrossel`:
                 "mime_type": "image\/png",
                 "original_name": "01.png",
                 "name": "7f2e87f7-808f-4287-82df-8d239e8268f4.png",
-                "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7f2e87f7-808f-4287-82df-8d239e8268f4.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7f2e87f7-808f-4287-82df-8d239e8268f4.png",
                 "size": "2.54 MB"
             },
             {
                 "mime_type": "image\/png",
                 "original_name": "02.png",
                 "name": "7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
-                "url": "https:\/\/cdn.positus.global\/production\/templates\/d4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
+                "url": "https:\/\/cdn.positus.global\/production\/templates\/a4056ecf-f7cf-418b-b44e-8c1d8808c57d\/7c19aece-a33c-4b65-acee-11f446e0d1a0.png",
                 "size": "2.52 MB"
             }
         ],
