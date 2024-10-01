@@ -7,3 +7,4 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 ## Tópicos
 
 - [Whatsapp Flows](flows/README.md)
+- [Whatsapp Templates](templates/README.md)
