@@ -7,6 +7,10 @@
   - [Listando todos os templates](#listando-todos-os-templates)
   - [Exibindo um único template](#exibindo-um-único-template)
   - [Criando um template](#considerações-para-criar-um-template)
+    - [Considerações para criar um template](#considerações-para-criar-um-template)
+    - [Criando um template simples](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
+    - [Criando um template com arquivos no header](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
+    - [Criando um template do tipo carrossel](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
   - [Deletando um template](#deletando-um-template)
 - [Webhooks](#webhooks)
 
@@ -172,6 +176,8 @@ Define o idioma do template.
 - [Listando todos os templates](#listando-todos-os-templates)
 - [Exibindo um único template](#exibindo-um-único-template)
 - [Criando um template](#considerações-para-criar-um-template)
+    - [Considerações para criar um template](#considerações-para-criar-um-template)
+    - [Chamada da API](#criando-um-template)
 - [Deletando um template](#deletando-um-template)
 
 #### Listando todos os templates
