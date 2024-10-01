@@ -24,10 +24,10 @@ Os webhooks do workspace são de extrema importância para receber eventos sobre
 | flow_created | Este evento é recebido quando um novo flow é criado |
 | flow_updated | Este evento é recebido quando um flow é atualizado |
 | flow_published | Este evento é recebido quando um flow é publicado |
-| flow_throttled | Este evento é recebido quando um novo flow é restrito |
-| flow_deprecated | Este evento é recebido quando um novo flow é descontinuado |
-| flow_blocked | Este evento é recebido quando um novo flow é bloqueado |
-| flow_deleted | Este evento é recebido quando um novo flow é deletado |
+| flow_throttled | Este evento é recebido quando um flow é restrito |
+| flow_deprecated | Este evento é recebido quando um flow é descontinuado |
+| flow_blocked | Este evento é recebido quando um flow é bloqueado |
+| flow_deleted | Este evento é recebido quando um flow é deletado |
 | flow_sync | Este evento é recebido quando o sistema da Positus força uma sincronização com a Meta |
 
 A estrutura dos webhooks recebidos relacionados a flows é a seguinte:
