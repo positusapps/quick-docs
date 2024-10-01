@@ -351,7 +351,7 @@ Endpoint utilizado para criar um novo template:
         "created_at": "2024-10-01T15:06:09.000000Z",
         "updated_at": "2024-10-01T15:06:09.000000Z"
     }
-} ⁠
+}
 ```
 
 > Considerações antes de se criar um template:
