@@ -1,9 +1,9 @@
 # Documentação rápida
 
-Este repositório contém um conjunto de documentos relacionados a alguns recursos do WhatsApp.
+Este repositório contém um conjunto de documentos relacionados a alguns recursos da Positus/WhatsApp.
 
 > [!NOTE]
-> Alguns textos desta documentação podem ter sido copiados ou modificados da documentação oficial do WhatsApp.
+> Alguns textos desta documentação podem ter sido copiados ou modificados da [documentação oficial do WhatsApp](https://developers.facebook.com/docs/whatsapp).
 
 ## Tópicos
 
