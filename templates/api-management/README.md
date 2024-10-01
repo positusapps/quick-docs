@@ -230,7 +230,7 @@ Status code 204 - No Content
 
 Se já houver um template cadastrado com o nome informado será retornado:
 
-https://github.com/positusapps/quick-docs/blob/f06c260e191f0f6b6d19191d461fc6a5053c1839/templates/api-management/json/templates-validate-response-error.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/d620764c5837cb5c7d0fa25609e34df0705df1f9/templates/api-management/json/templates-validate-response-error.json#L1-L3
 
 #### Criando um template
 
