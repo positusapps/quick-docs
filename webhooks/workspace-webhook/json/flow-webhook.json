@@ -1,0 +1,62 @@
+{
+    "event": "flow_sync",
+    "workspace": {
+      "id": "d4026ecf-f7cf-418b-b44e-8c1d8808c57d",
+      "name": "Conta teste Robbu",
+      "business_id": "221123502254868",
+      "waba_id": "1281352745326562"
+    },
+    "flow": {
+      "id": "647e664e-a25e-4ea1-bc88-584293994210",
+      "wa_id": "140652314281467",
+      "status": {
+        "id": 1,
+        "code": "DRAFT",
+        "description": "Rascunho"
+      },
+      "version": null,
+      "name": "Flow teste",
+      "categories": [
+        {
+          "id": 4,
+          "code": "LEAD_GENERATION",
+          "description": "Geração de leads"
+        }
+      ],
+      "json": {
+        "version": "3.1",
+        "screens": [
+          {
+            "id": "WELCOME_SCREEN",
+            "layout": {
+              "type": "SingleColumnLayout",
+              "children": [
+                {
+                  "type": "TextHeading",
+                  "text": "Hello World"
+                },
+                {
+                  "type": "TextBody",
+                  "text": "Let's start building things!"
+                },
+                {
+                  "type": "Footer",
+                  "label": "Complete",
+                  "on-click-action": {
+                    "name": "complete",
+                    "payload": []
+                  }
+                }
+              ]
+            },
+            "title": "Welcome",
+            "terminal": true,
+            "success": true,
+            "data": []
+          }
+        ]
+      },
+      "endpoint_encrypted": true,
+      "endpoint_url": null
+    }
+  }
