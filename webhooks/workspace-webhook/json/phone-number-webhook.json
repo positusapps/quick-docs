@@ -1,0 +1,34 @@
+{
+    "event": "phone_number_sync",
+    "workspace": {
+      "id": "a4051ecf-f7cf-41bb-b44e-8c1d8808c57d",
+      "name": "Conta teste Robbu",
+      "business_id": "221123502254868",
+      "waba_id": "1281352745326562"
+    },
+    "number": {
+      "id": "1f4dfb43-2874-45e3-a347-6b8db9e23a7a",
+      "status": {
+        "id": 7,
+        "description": "Número ativo"
+      },
+      "quality_status": {
+        "id": 1,
+        "code": "CONNECTED"
+      },
+      "quality_rating": {
+        "id": 1,
+        "code": "GREEN"
+      },
+      "messaging_limit": {
+        "id": 1,
+        "amount": 1000,
+        "formatted_amount": "1.000"
+      },
+      "official_business_account": false,
+      "name": "Robbu",
+      "country_code": "55",
+      "number": "1132306201",
+      "display_phone_number": "551132306201"
+    }
+  }

@@ -4,8 +4,8 @@
 
 - [Introdução](#introdução)
 - [Eventos](#eventos)
-  - [Eventos de Templates](#eventos-de-templates)
   - [Eventos de Flows](#eventos-de-flows)
+  - [Eventos de Templates](#eventos-de-templates)
   - [Eventos de Números](#eventos-de-números)
   - [Eventos de Ativação de Números](#eventos-de-números)
   - [Eventos de Workspaces](#eventos-de-workspaces)
@@ -54,61 +54,13 @@ https://github.com/positusapps/quick-docs/blob/3f5372cb47da777afd19b0f9bae34b66f
 
 | Event Type | Description |
 | --- | --- |
-phone_number_status_update
-phone_number_sync
-
+| phone_number_status_update | Este evento é recebido quando os seguintes campos mudam: <br><br> <ul><li>`messaging_limit`</li><li>`quality_status`</li><li>`quality_rating`</li></ul> |
+| phone_number_sync | Este evento é recebido quando o sistema da Positus força uma sincronização com a Meta |
 
 A estrutura dos webhooks relacionados a números recebidos é a seguinte:
 
 ```json
-{
-    "event": "message_template_sync",
-    "workspace": {
-        "id": "d4156ecf-f7cf-438b-b44e-8c4d8805c57d",
-        "name": "Positus",
-        "business_id": "112223522534868",
-        "waba_id": "1235395715662892"
-    },
-    "template": {
-        "id": "e180bg54-ef94-4da2-9349-66422e380c1d",
-        "status": {
-            "id": 2,
-            "code": "APPROVED",
-            "description": "Aprovado"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 15,
-            "code": "UTILITY",
-            "description": "Serviços"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "sample_movie_ticket_confirmation",
-        "components": [
-            {
-                "type": "HEADER",
-                "format": "IMAGE"
-            },
-            {
-                "type": "BODY",
-                "text": "Seu ingresso para *{{1}}*\n*Horário* - {{2}}\n*Local* - {{3}}\n*Assentos* - {{4}}"
-            },
-            {
-                "type": "FOOTER",
-                "text": "Esta mensagem é de uma empresa não verificada."
-            }
-        ],
-        "header_file": null,
-        "carousel_files": []
-    }
-}
+
 ```
 
 #### Eventos de Ativação de Números
@@ -169,21 +121,6 @@ A estrutura dos webhooks relacionados a ativação de números recebidos é a se
     }
 }
 ```
-
-#### Eventos de Workspaces
-
-| Event Type | Description |
-| --- | --- |
-| message_template_created | Este evento é recebido quando um novo template é criado |
-| message_template_category_update | Este evento é recebido quando a categoria de um template é alterada pela Meta |
-| message_template_quality_update | Este evento é recebido quando a qualidade de um template muda |
-| message_template_status_update | Este evento é recebido quando o status do template muda |
-| message_template_deleted | Este evento é recebido quando um template é deletado |
-| message_template_sync | Este evento é recebido quando o sistema da Positus força uma sincronização com a Meta |
-
-A estrutura dos webhooks relacionados a workspaces recebidos é a seguinte:
-
-link
 
 ## Precisa de ajuda?
 
