@@ -74,6 +74,7 @@ Define a categoria do template.
 
 Define se um template é do tipo `detalhe do pedido`.
 
+> [!NOTE]
 > Só é permitida a utilização desta propriedade caso o `Waba` relacionado ao `Workspace` possua permissão de enviar mensagens do tipo `order`.
 
 | Id | Description | Code | Status |
@@ -85,6 +86,7 @@ Define se um template é do tipo `detalhe do pedido`.
 
 Define se um template é do tipo `status do pedido`.
 
+> [!NOTE]
 > Só é permitida a utilização desta propriedade caso o `Waba` relacionado ao `Workspace` possua permissão de enviar mensagens do tipo `order`.
 
 | Id | Description | Code | Status |
