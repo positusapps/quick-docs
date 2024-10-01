@@ -59,67 +59,18 @@ https://github.com/positusapps/quick-docs/blob/3f5372cb47da777afd19b0f9bae34b66f
 
 A estrutura dos webhooks relacionados a números recebidos é a seguinte:
 
-```json
-
-```
+https://github.com/positusapps/quick-docs/blob/99387492833866c9d8961c706426793704d938f2/webhooks/workspace-webhook/json/phone-number-webhook.json#L1-L34
 
 #### Eventos de Ativação de Números
 
 | Event Type | Description |
 | --- | --- |
-number_activation_status_update
+| number_activation_status_update | Este evento é recebido quando o status de uma ativação de número muda |
 
 A estrutura dos webhooks relacionados a ativação de números recebidos é a seguinte:
 
 ```json
-{
-    "event": "message_template_sync",
-    "workspace": {
-        "id": "d4156ecf-f7cf-438b-b44e-8c4d8805c57d",
-        "name": "Positus",
-        "business_id": "112223522534868",
-        "waba_id": "1235395715662892"
-    },
-    "template": {
-        "id": "e180bg54-ef94-4da2-9349-66422e380c1d",
-        "status": {
-            "id": 2,
-            "code": "APPROVED",
-            "description": "Aprovado"
-        },
-        "quality_score": {
-            "id": 0,
-            "code": "UNKNOWN"
-        },
-        "category": {
-            "id": 15,
-            "code": "UTILITY",
-            "description": "Serviços"
-        },
-        "language": {
-            "id": 46,
-            "code": "pt_BR",
-            "name": "Portuguese (BR)"
-        },
-        "name": "sample_movie_ticket_confirmation",
-        "components": [
-            {
-                "type": "HEADER",
-                "format": "IMAGE"
-            },
-            {
-                "type": "BODY",
-                "text": "Seu ingresso para *{{1}}*\n*Horário* - {{2}}\n*Local* - {{3}}\n*Assentos* - {{4}}"
-            },
-            {
-                "type": "FOOTER",
-                "text": "Esta mensagem é de uma empresa não verificada."
-            }
-        ],
-        "header_file": null,
-        "carousel_files": []
-    }
-}
+
 ```
 
 ## Precisa de ajuda?

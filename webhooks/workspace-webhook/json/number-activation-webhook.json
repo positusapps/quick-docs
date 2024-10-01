@@ -1,0 +1,30 @@
+{
+    "event": "number_activation_status_update",
+    "workspace": {
+        "id": "a4051ecf-f7cf-41bb-b44e-8c1d8808c57d",
+        "name": "Conta teste Robbu",
+        "business_id": "221123502254868",
+        "waba_id": "1281352745326562"
+    },
+    "number_activation": {
+        "id": "dfde279d-39df-41fe-9889-8b275dfd09ca",
+        "status": {
+            "id": 3,
+            "description": "Aguarde a sua conta esta sendo validada"
+        },
+        "type": {
+            "id": 1,
+            "name": "Classic"
+        },
+        "business_id": null,
+        "name": "Tribanco Seguros",
+        "tag": null,
+        "country_code": "55",
+        "number": "1130035201",
+        "display_phone_number": "551130035201",
+        "code_verified": false,
+        "rejection_reason": null,
+        "created_at": "2024-07-16T11:54:29.000000Z",
+        "updated_at": "2024-07-16T11:55:20.000000Z"
+    }
+}
