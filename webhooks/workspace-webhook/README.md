@@ -1,4 +1,4 @@
-# WhatsApp Templates
+# Webhooks
 
 ## Webhook do Workspace
 
