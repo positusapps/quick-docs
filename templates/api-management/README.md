@@ -311,7 +311,7 @@ Endpoint utilizado para criar um novo template:
 ###### Response
 
 ```json
-⁠{
+{
     "data": {
         "id": "a1bb46d6-0ec6-49ad-a7a0-4ed7f0f24b1b",
         "wa_id": "894983259173415",
