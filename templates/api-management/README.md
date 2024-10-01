@@ -310,18 +310,7 @@ Status code 204 - No Content
 
 Para acompanhar as atualizações dos templates, é recomendado que se [configure um webhook no workspace](https://studio.posit.us/workspace/configuracoes) para receber as atualizações sobre os templates em tempo real.
 
-| Event Type | Description |
-| --- | --- |
-| message_template_created | Este evento é recebido quando um novo template é criado |
-| message_template_category_update | Este evento é recebido quando a categoria de um template é alterada pela Meta |
-| message_template_quality_update | Este evento é recebido quando a qualidade de um template muda |
-| message_template_status_update | Este evento é recebido quando o status do template muda |
-| message_template_deleted | Este evento é recebido quando um template é deletado |
-| message_template_sync | Este evento é recebido quando o sistema da Positus força uma sincronização com a Meta |
-
-A estrutura dos webhooks recebidos é a seguinte:
-
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-webhook.json#L1-L48
+Saiba mais sobre os possíveis eventos de webhook relacionados aos templates [clicando aqui] ().
 
 ## Precisa de ajuda?
 
