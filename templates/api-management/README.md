@@ -8,9 +8,9 @@
   - [Exibindo um único template](#exibindo-um-único-template)
   - [Criando um template](#considerações-para-criar-um-template)
     - [Considerações para criar um template](#considerações-para-criar-um-template)
-    - [Criando um template simples](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
-    - [Criando um template com arquivos no header](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
-    - [Criando um template do tipo carrossel](#post-httpsapipositusglobalv2workspacesworkspace_idmessage-templates)
+    - [Criando um template simples](#criando-um-template-simples)
+    - [Criando um template com arquivos no header](#criando-um-template-com-arquivos-no-header)
+    - [Criando um template do tipo carrossel](#criando-um-template-do-tipo-carrossel)
   - [Deletando um template](#deletando-um-template)
 - [Webhooks](#webhooks)
 
@@ -176,8 +176,10 @@ Define o idioma do template.
 - [Listando todos os templates](#listando-todos-os-templates)
 - [Exibindo um único template](#exibindo-um-único-template)
 - [Criando um template](#considerações-para-criar-um-template)
-    - [Considerações para criar um template](#considerações-para-criar-um-template)
-    - [Chamada da API](#criando-um-template)
+  - [Considerações para criar um template](#considerações-para-criar-um-template)
+  - [Criando um template simples](#criando-um-template-simples)
+  - [Criando um template com arquivos no header](#criando-um-template-com-arquivos-no-header)
+  - [Criando um template do tipo carrossel](#criando-um-template-do-tipo-carrossel)
 - [Deletando um template](#deletando-um-template)
 
 #### Listando todos os templates
@@ -186,7 +188,7 @@ Endpoint utilizado para listar todos os templates de um workspace:
 
 ##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates
 
-###### Response
+`Response`
 
 ```json
 {
@@ -243,7 +245,7 @@ Endpoint utilizado para exibir um template específico de um workspace:
 
 ##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/{TEMPLATE_ID}
 
-###### Response
+`Response`
 
 ```json
 {
@@ -300,7 +302,7 @@ Caso seja efetuada a tentativa de criar um template com um nome já existente, s
 
 ##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates/validate
 
-###### Body
+`Body`
 
 ```json
 {
@@ -308,7 +310,7 @@ Caso seja efetuada a tentativa de criar um template com um nome já existente, s
 }
 ```
 
-###### Response Success
+`Response Success`
 
 Se não houver um template cadastrado com o nome informado será retornado:
 
@@ -316,7 +318,7 @@ Se não houver um template cadastrado com o nome informado será retornado:
 Status code 204 - No Content
 ```
 
-###### Response Error
+`Response Error`
 
 Se já houver um template cadastrado com o nome informado será retornado:
 
@@ -332,9 +334,9 @@ Endpoint utilizado para criar um novo template:
 
 ##### (POST) https://api.positus.global/v2/workspaces/{WORKSPACE_ID}/message-templates
 
-Exemplo de criação de um template simples
-
 ###### Criando um template simples
+
+Exemplo de criação de um template simples
 
 `Body - FormData`
 
@@ -527,13 +529,13 @@ Exemplo de criação de um template com arquivos no `header`:
 }
 ```
 
-`Body - FormData`
-
-> Não esqueça de enviar os dados como **FormData**.
-
 ###### Criando um template do tipo carrossel
 
 Exemplo de criação de um template do tipo `carrossel`:
+
+`Body - FormData`
+
+> Não esqueça de enviar os dados como **FormData**.
 
 ```json
 {
