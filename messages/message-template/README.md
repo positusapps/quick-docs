@@ -3,8 +3,8 @@
 ## Modelos de mensagem
 
 - [Introdução](#introdução)
-- [Funcionalidades específicas](#eventos)
-  - [Botão de chamadas do WhatsApp](#eventos-de-flows)
+- [Funcionalidades específicas](#funcionalidades-específicas)
+  - [Botão de chamadas do WhatsApp](#enviar-modelo-de-mensagem-com-botão-de-chamadas-do-whatsapp)
 
 ### Introdução
 
@@ -14,7 +14,7 @@ Os modelos de mensagens do WhatsApp são formatos de mensagens específicos que 
 
 ### Enviar modelo de mensagem com botão de chamadas do WhatsApp
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-body.json#L1-L21
+https://github.com/positusapps/quick-docs/blob/2e0aa95af69f67ecde90dfa65af0d61de04b1009/messages/message-template/json/template-call-button-body.json#L1-L25
 
 ## Precisa de ajuda?
 
