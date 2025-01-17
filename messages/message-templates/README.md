@@ -14,10 +14,15 @@ Os modelos de mensagens do WhatsApp são formatos de mensagens específicos que 
 
 ### Enviar modelo de mensagem com botão de chamadas do WhatsApp
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | String | Define o tipo do parâmetro. |
+| ttl_minutes | Integer | - O tempo de vida do botão CTA é em minutos. Após esse tempo expirar, o botão não pode ser usado para iniciar uma chamada para a empresa.<br>- O valor esperado é um valor inteiro entre 1 e 43200 (30 dias).<br>- O valor padrão é 10080 (7 dias). |
+
 https://github.com/positusapps/quick-docs/blob/2e0aa95af69f67ecde90dfa65af0d61de04b1009/messages/message-template/json/template-call-button-body.json#L1-L25
 
 > [!WARNING]
-> Enviar esta mensagem para usuários em versões mais antigas do aplicativo resultará em um erro no webhook com código de erro 131026.
+> Enviar esta mensagem para usuários em versões mais antigas do aplicativo resultará em um erro no webhook com código de erro [131026](https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes).
 
 ## Precisa de ajuda?
 

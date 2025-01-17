@@ -1,12 +1,10 @@
 {
-    "to": "14085551234",
-    "messaging_product": "whatsapp",
+    "to": "11999999999",
     "type": "template",
-    "recipient_type": "individual",
     "template": {
-        "name": "wa_voice_call",
+        "name": "voice_calling_template",
         "language": {
-            "code": "en"
+            "code": "pt-br"
         },
         "components": [
             {
