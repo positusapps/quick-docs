@@ -4,7 +4,6 @@ Saiba tudo sobre o envio de mensagens através do WhatsApp.
 
 ## Aprenda sobre Mensagens
 
-- ~~Webhook do número~~ (Documentação não disponível)
 - [Modelos de mensagem (Templates)](message-template/README.md)
 
 ## Precisa de ajuda?

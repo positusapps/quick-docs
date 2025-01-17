@@ -1,0 +1,25 @@
+{
+    "to": "14085551234",
+    "messaging_product": "whatsapp",
+    "type": "template",
+    "recipient_type": "individual",
+    "template": {
+        "name": "wa_voice_call",
+        "language": {
+            "code": "en"
+        },
+        "components": [
+            {
+                "type": "button",
+                "sub_type" : "voice_call",
+                "parameters": [
+                    {
+                        "type": "ttl_minutes",
+                        "ttl_minutes": 100
+                    }
+                ]
+            }
+        ]
+    }
+}
+  
