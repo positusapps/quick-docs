@@ -16,6 +16,9 @@ Os modelos de mensagens do WhatsApp são formatos de mensagens específicos que 
 
 https://github.com/positusapps/quick-docs/blob/2e0aa95af69f67ecde90dfa65af0d61de04b1009/messages/message-template/json/template-call-button-body.json#L1-L25
 
+> [!WARNING]
+> Enviar esta mensagem para usuários em versões mais antigas do aplicativo resultará em um erro no webhook com código de erro 131026.
+
 ## Precisa de ajuda?
 
 Caso a sua dúvida não tenha sido respondida ou você acha que algum conteúdo importante está faltando nesta documentação, sinta-se livre para abrir uma [issue](https://github.com/positusapps/quick-docs/issues) ou [abra um ticket](https://studio.posit.us/suporte) no nosso suporte.
