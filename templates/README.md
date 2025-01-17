@@ -11,7 +11,7 @@ Se você deseja acessar a documentação completa da Meta sobre `Templates`, [cl
 ## Aprenda sobre WhatsApp Templates
 
 - [API de gerenciamento da Positus](api-management/README.md)
-- [Envio de mensagens](messages/message-templates/README.md)
+- [Envio de mensagens](../messages/message-templates/README.md)
 - [Webhooks](https://github.com/positusapps/quick-docs/blob/main/templates/api-management/README.md#webhooks)
 
 ## Precisa de ajuda?
