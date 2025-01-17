@@ -4,7 +4,7 @@ Saiba tudo sobre o envio de mensagens através do WhatsApp.
 
 ## Aprenda sobre Mensagens
 
-- [Modelos de mensagem (Templates)](message-template/README.md)
+- [Modelos de mensagem (Templates)](message-templates/README.md)
 
 ## Precisa de ajuda?
 
