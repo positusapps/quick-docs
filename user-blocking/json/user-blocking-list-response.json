@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "messaging_product": "whatsapp",
+            "wa_id": "5511999999999"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "eyJvZAmZAzZAXQiOjAsInZAlcnNpb25JZACI6IjE3Mzc3MjcyOTMwMjU5MzgifQZDZD",
+            "after": "eyJvZAmZAzZAXQiOjAsInZAlcnNpb25JZACI6IjE3Mzc3MjcyOTMwMjU5MzgifQZDZD"
+        }
+    }
+}
