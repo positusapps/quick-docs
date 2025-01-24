@@ -20,9 +20,9 @@ Se você deseja acessar a documentação completa da Meta sobre `Bloqueio de usu
 
 ## API de gerenciamento da Positus
 
-- [Listar todos os usuários bloqueados](#listando-todos-os-templates)
-- [Bloquear um usuário](#exibindo-um-único-template)
-- [Desbloquear um usuário](#exibindo-um-único-template)
+- [Listar todos os usuários bloqueados](#listar-todos-os-usuários-bloqueados)
+- [Bloquear um usuário](#bloquear-um-usuário)
+- [Desbloquear um usuário](#desbloquear-um-usuário)
 
 ### Listar todos os usuários bloqueados
 
@@ -40,7 +40,7 @@ Endpoint utilizado para listar todos os usuários bloqueados:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
+https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/user-blocking/json/user-blocking-list-response.json#L1-L14
 
 ### Bloquear um usuário
 
@@ -50,11 +50,11 @@ Endpoint utilizado para bloquear um usuário:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
+https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/user-blocking/json/user-blocking-block-body.json#L1-L7
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
+https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/user-blocking/json/user-blocking-block-response.json#L1-L12
 
 ### Desbloquear um usuário
 
@@ -64,11 +64,11 @@ Endpoint utilizado para desbloquear um usuário:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
+https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/user-blocking/json/user-blocking-unblock-body.json#L1-L7
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/d2d8964e694cae265ad91e5a8154f9e7f2ede389/templates/api-management/json/template-store-auth-response.json#L1-L44
+https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/user-blocking/json/user-blocking-unblock-response.json#L1-L12
 
 ## Precisa de ajuda?
 
