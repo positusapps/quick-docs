@@ -8,7 +8,7 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 ## Tópicos
 
 - [Mensagens](messages/README.md)
-- [Bloquear Usuários](user-blocking/README.md)
+- [Bloqueaio de Usuários](user-blocking/README.md)
 - [Whatsapp Flows](flows/README.md)
 - [Whatsapp Templates](templates/README.md)
 - [Webhooks](webhooks/README.md)

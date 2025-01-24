@@ -1,4 +1,4 @@
-# Bloquear Usuários
+# Bloqueio de Usuários
 
 Com a API de Bloqueio de Usuários, sua empresa impede que indivíduos mal-intencionados entrem em contato.
 
