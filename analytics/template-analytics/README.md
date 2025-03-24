@@ -50,7 +50,7 @@ Endpoint utilizado para listar a análise de templates:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/template-analytics/json/template-call-response.json#L1-L68
+https://github.com/positusapps/quick-docs/blob/blob/main/template-analytics/json/template-call-response.json#L1-L68
 
 ## Precisa de ajuda?
 

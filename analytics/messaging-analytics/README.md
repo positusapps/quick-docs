@@ -47,7 +47,7 @@ Endpoint utilizado para listar a análise de mensagens:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/messaging-analytics/json/template-call-response.json#L1-L40
+https://github.com/positusapps/quick-docs/blob/main/analytics/messaging-analytics/json/template-call-response.json#L1-L40
 
 ## Precisa de ajuda?
 

@@ -32,7 +32,7 @@ Endpoint utilizado para listar a análise de conversas:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/conversation-analytics/json/template-call-response.json#L1-L102
+https://github.com/positusapps/quick-docs/blob/main/analytics/conversation-analytics/json/template-call-response.json#L1-L102
 
 ## Precisa de ajuda?
 

@@ -38,7 +38,7 @@ Endpoint utilizado para listar a análise de preços:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/pricing-analytics/json/template-call-response.json#L1-L47
+https://github.com/positusapps/quick-docs/blob/main/analytics/pricing-analytics/json/template-call-response.json#L1-L47
 
 ## Precisa de ajuda?
 
