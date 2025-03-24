@@ -1,0 +1,40 @@
+{
+    "analytics": {
+        "phone_numbers": [
+            "551132804485",
+            "16505550112"
+        ],
+        "country_codes": [
+            "US",
+            "BR"
+        ],
+        "granularity": "DAY",
+        "data_points": [
+            {
+                "start": 1543543200,
+                "end": 1543629600,
+                "sent": 196093,
+                "delivered": 179715
+            },
+            {
+                "start": 1543629600,
+                "end": 1543716000,
+                "sent": 147649,
+                "delivered": 139032
+            },
+            {
+                "start": 1543716000,
+                "end": 1543802400,
+                "sent": 61988,
+                "delivered": 58830
+            },
+            {
+                "start": 1543802400,
+                "end": 1543888800,
+                "sent": 132465,
+                "delivered": 124392
+            }
+        ]
+    },
+    "id": "102290129340398"
+}

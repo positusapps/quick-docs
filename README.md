@@ -7,6 +7,7 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 
 ## Tópicos
 
+- [Analytics](analytics/README.md)
 - [Mensagens](messages/README.md)
 - [Bloqueaio de Usuários](user-blocking/README.md)
 - [Whatsapp Flows](flows/README.md)

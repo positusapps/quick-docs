@@ -1,0 +1,102 @@
+{
+    "conversation_analytics": {
+        "data": [
+            {
+                "data_points": [
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 1558,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "REGULAR",
+                        "conversation_direction": "UNKNOWN",
+                        "conversation_category": "AUTHENTICATION",
+                        "cost": 15.58
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 2636,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "REGULAR",
+                        "conversation_category": "MARKETING",
+                        "cost": 26.36
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 2238,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "REGULAR",
+                        "conversation_category": "SERVICE",
+                        "cost": 22.38
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 1782,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "REGULAR",
+                        "conversation_category": "UTILITY",
+                        "cost": 17.82
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 1568,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "FREE_TIER",
+                        "conversation_category": "AUTHENTICATION",
+                        "cost": 15.68
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 2716,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "FREE_TIER",
+                        "conversation_category": "MARKETING",
+                        "cost": 27.16
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 2180,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "FREE_TIER",
+                        "conversation_category": "SERVICE",
+                        "cost": 21.8
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 1465,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "FREE_TIER",
+                        "conversation_category": "UTILITY",
+                        "cost": 14.65
+                    },
+                    {
+                        "start": 1685602800,
+                        "end": 1688194800,
+                        "conversation": 1433,
+                        "phone_number": "15550458206",
+                        "country": "US",
+                        "conversation_type": "FREE_ENTRY_POINT",
+                        "conversation_category": "SERVICE",
+                        "cost": 14.33
+                    }
+                ]
+            }
+        ]
+    },
+    "id": "102290129340398",
+}
