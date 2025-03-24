@@ -47,9 +47,16 @@ Endpoint utilizado para listar a análise de templates:
 
 ##### (GET) https://api.positus.global/v2/admin/workspaces/{workspace-uuid}/analytics?type=template_analytics
 
+```sh
+curl --location --globoff 'https://api.positus.global/v2/admin/workspaces/d4056ecf-f7cf-418b-b44e-8c1d8808c57d/analytics?start=1738368000&end=1742833145&granularity=daily&type=template_analytics&template_ids[]=af0ea2a8-ea78-4b8b-9c27-0c07a940f56f' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {access_token}'
+```
+
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/main/template-analytics/json/template-call-response.json#L1-L68
+https://github.com/positusapps/quick-docs/blob/6235ed8f07d02f96eb3d703f3cce11f7530f1f36/analytics/template-analytics/json/template-call-response.json#L1-L68
 
 ## Precisa de ajuda?
 
