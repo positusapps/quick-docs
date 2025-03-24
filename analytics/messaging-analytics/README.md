@@ -46,7 +46,8 @@ Endpoint utilizado para listar a análise de mensagens:
 ##### (GET) https://api.positus.global/v2/admin/workspaces/{WORKSPACE_UUID}/analytics?type=analytics
 
 `Response`
-https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/messaging-analytics/json/template-call-response#L1-L46
+
+https://github.com/positusapps/quick-docs/blob/6df4c55cda1ab46026f913264a646c9867b77bde/analytics/messaging-analytics/json/template-call-response.json#L1-L40
 
 ## Precisa de ajuda?
 

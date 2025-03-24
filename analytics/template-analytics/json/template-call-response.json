@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "granularity": "DAILY",
+            "product_type": "cloud_api",
+            "data_points": [
+                {
+                    "template_id": "1421988012088524",
+                    "start": 1718064000,
+                    "end": 1718150400,
+                    "sent": 1,
+                    "delivered": 1,
+                    "read": 1,
+                    "cost": [
+                        {
+                            "type": "amount_spent",
+                            "value": 0.01
+                        },
+                        {
+                            "type": "cost_per_delivered",
+                            "value": 0.01
+                        }
+                    ]
+                },
+                {
+                    "template_id": "2632273056924580",
+                    "start": 1718064000,
+                    "end": 1718150400,
+                    "sent": 1,
+                    "delivered": 1,
+                    "read": 1,
+                    "clicked": [
+                        {
+                            "type": "quick_reply_button",
+                            "button_content": "Contact Support",
+                            "count": 108
+                        },
+                        {
+                            "type": "unique_url_button",
+                            "button_content": "Tell me more",
+                            "count": 16
+                        }
+                    ],
+                    "cost": [
+                        {
+                            "type": "amount_spent",
+                            "value": 0.03
+                        },
+                        {
+                            "type": "cost_per_delivered",
+                            "value": 0.03
+                        },
+                        {
+                            "type": "cost_per_url_button_click",
+                            "value": 0.03
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "MAZDZD",
+            "after": "MjQZD"
+        }
+    }
+}

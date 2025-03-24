@@ -1,0 +1,47 @@
+{
+    "granularity": "monthly",
+    "start": "2024-06-11",
+    "end": "2024-07-29",
+    "data": [
+        {
+            "date": "2024-06",
+            "total_cost": 120.50,
+            "currency": "USD",
+            "messages_sent": 1500,
+            "breakdown": {
+                "marketing": {
+                    "cost": 80.00,
+                    "messages": 1000
+                },
+                "utility": {
+                    "cost": 30.00,
+                    "messages": 400
+                },
+                "authentication": {
+                    "cost": 10.50,
+                    "messages": 100
+                }
+            }
+        },
+        {
+            "date": "2024-07",
+            "total_cost": 135.75,
+            "currency": "USD",
+            "messages_sent": 1600,
+            "breakdown": {
+                "marketing": {
+                    "cost": 90.00,
+                    "messages": 1100
+                },
+                "utility": {
+                    "cost": 35.00,
+                    "messages": 450
+                },
+                "authentication": {
+                    "cost": 10.75,
+                    "messages": 50
+                }
+            }
+        }
+    ]
+}

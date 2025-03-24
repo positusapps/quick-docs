@@ -6,7 +6,7 @@ Saiba tudo sobre como acessar análises detalhadas de mensagens, conversas e tem
 
 - Monitorar o total de conversas e seus respectivos custos para uma Conta Comercial do WhatsApp (WABA).
 
-- Verificar quantas vezes um determinado modelo foi visualizado.
+- Verificar quantas vezes um determinado template foi visualizado.
 
 - E muito mais.
 
