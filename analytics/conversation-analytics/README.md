@@ -27,7 +27,7 @@ Fornece informações detalhadas sobre conversas, seus custos e categorias.
 
 Endpoint utilizado para listar a análise de conversas:
 
-##### (GET) https://api.positus.global/v2/admin/workspaces/{WORKSPACE_UUID}/analytics?type=conversation_analytics
+##### (GET) https://api.positus.global/v2/admin/workspaces/{workspace-uuid}/analytics?type=conversation_analytics
 
 `Response`
 

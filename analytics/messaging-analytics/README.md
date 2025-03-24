@@ -43,7 +43,7 @@ template_messages_sent – Número de mensagens de modelo enviadas.
 
 Endpoint utilizado para listar a análise de mensagens:
 
-##### (GET) https://api.positus.global/v2/admin/workspaces/{WORKSPACE_UUID}/analytics?type=analytics
+##### (GET) https://api.positus.global/v2/admin/workspaces/{workspace-uuid}/analytics?type=analytics
 
 `Response`
 

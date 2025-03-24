@@ -33,7 +33,7 @@ Os dados são fornecidos diariamente no fuso horário UTC, com um período de re
 ## Listando (get)
 Endpoint utilizado para listar a análise de preços:
 
-##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_UUID}/analytics?type=pricing_analytics
+##### (GET) https://api.positus.global/v2/admin/workspaces/{workspace-uuid}/analytics?type=pricing_analytics
 
 `Response`
 

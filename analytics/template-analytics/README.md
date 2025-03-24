@@ -45,7 +45,7 @@ Os dados são fornecidos diariamente no fuso horário UTC, com um período de re
 
 Endpoint utilizado para listar a análise de templates:
 
-##### (GET) https://api.positus.global/v2/workspaces/{WORKSPACE_UUID}/analytics?type=template_analytics
+##### (GET) https://api.positus.global/v2/admin/workspaces/{workspace-uuid}/analytics?type=template_analytics
 
 `Response`
 
