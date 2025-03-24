@@ -16,10 +16,9 @@ Fornece informações detalhadas sobre conversas, seus custos e categorias.
 
 | Parameter | Type             | Description                                                                                                         |
 |-----------|------------------|---------------------------------------------------------------------------------------------------------------------|
-| type      | String | (obrigatório) Define o tipo da análise. <br/>ex.: 'conversation_analytics'                                                       |
-| granularity       | String           | (obrigatório)  A granularidade com a qual você deseja a análise. <br/>Valores possíveis: (HALF_HOUR, DAY ou MONTH). |
 | start     | UNIX Timestamp   | (obrigatório) A data de início do intervalo de dados. <br/>ex.: 1738368000                                          |
 | end       | UNIX Timestamp   | (obrigatório) A data de término do intervalo de dados. <br/>ex.: 1742833145                                         |
+| granularity       | String           | (obrigatório)  O intervalo de tempo com a qual você deseja a análise. <br/>Valores possíveis: (HALF_HOUR, DAY ou MONTH). |
 | metric_types       | Array  | (opcional) Tipos de métricas a serem coletadas. <br/>Valores possíveis: (cost, conversation).                       |
 | conversation_categories       | Array            | (opcional) Categorias das conversas. <br/>Valores possíveis: (authentication, marketing, service, utility).         |
 | phone_numbers       | Array            | (opcional) Filtra a análise por um ou mais número de telefone.                                                      |

@@ -35,10 +35,9 @@ Os dados são fornecidos diariamente no fuso horário UTC, com um período de re
 
 | Parameter | Type             | Description                                                                                                 |
 |-----------|------------------|-------------------------------------------------------------------------------------------------------------|
-| type      | String | (obrigatório) Define o tipo da análise. <br/>ex.: 'template_analytics'                                               |
-| granularity       | String           | (obrigatório)  A granularidade com a qual você deseja a análise. <br/>Valores possíveis: (DAILY).           |
 | start     | UNIX Timestamp   | (obrigatório) A data de início do intervalo de dados. <br/>ex.: 1738368000                                  |
 | end       | UNIX Timestamp   | (obrigatório) A data de término do intervalo de dados. <br/>ex.: 1742833145                                 |
+| granularity       | String           | (obrigatório)  O intervalo de tempo com a qual você deseja a análise. <br/>Valores possíveis: (DAILY).      |
 | template_ids       | Array  | (obrigatório) Lista de IDs dos templates a serem analisados.                                                |
 | metric_types       | Array            | (opcional) Tipos de métricas a serem coletadas. <br/>Valores possíveis: (clicked, delivered, read ou sent). |
 
@@ -50,7 +49,7 @@ Endpoint utilizado para listar a análise de templates:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/blob/main/template-analytics/json/template-call-response.json#L1-L68
+https://github.com/positusapps/quick-docs/blob/main/template-analytics/json/template-call-response.json#L1-L68
 
 ## Precisa de ajuda?
 
