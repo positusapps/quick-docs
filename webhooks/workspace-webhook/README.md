@@ -40,6 +40,7 @@ https://github.com/positusapps/quick-docs/blob/dacb80ba35f8f666f31ca44c9b23b9021
 | --- | --- |
 | message_template_created | Este evento é recebido quando um novo template é criado |
 | message_template_category_update | Este evento é recebido quando a categoria de um template é alterada pela Meta |
+| message_template_category_update_scheduled | Este evento é recebido quando a categoria de um template será alterada pela Meta a qualquer momento |
 | message_template_quality_update | Este evento é recebido quando a qualidade de um template muda |
 | message_template_status_update | Este evento é recebido quando o status do template muda |
 | message_template_deleted | Este evento é recebido quando um template é deletado |
