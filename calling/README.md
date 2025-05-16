@@ -66,11 +66,11 @@ Endpoint utilizado para rejeitar a chamada:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/json/calls-accept-body.json#L1-L4
+https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/json/calls-reject-body.json#L1-L4
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/json/calls-accept-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/json/calls-reject-response.json#L1-L3
 
 
 ---
