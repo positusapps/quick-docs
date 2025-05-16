@@ -30,7 +30,7 @@ Quando sua empresa utiliza a API de WhatsApp Calling, acontece o seguinte:
 
 Endpoint utilizado para iniciar a chamada:
 
-**(POST)** `https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/make`
+#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/make
 
 `Body`
 
@@ -46,7 +46,7 @@ https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96b
 
 Endpoint utilizado para aceitar a chamada:
 
-**(POST)** `https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/accept`
+#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/accept
 
 `Body`
 
@@ -62,7 +62,7 @@ https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96b
 
 Endpoint utilizado para rejeitar a chamada:
 
-**(POST)** `https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/reject`
+#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/reject
 
 `Body`
 
@@ -79,7 +79,7 @@ https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96b
 
 Endpoint utilizado para encerrar a chamada:
 
-**(POST)** `https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/hang-up`
+#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/hang-up
 
 `Body`
 
