@@ -1,0 +1,16 @@
+{
+    "calls": [
+        {
+            "id": "wacid.HBgMNTU0Mzk5MDU2MDQxFQIAEhggNTg0NjkxRTJGNjREQzNFRkJGQ0ZDMzRCMUQ0RTM5REQcGAw1NTExMzEzNjE3NDEVAgAA",
+            "from": "554399951234",
+            "to": "551122361741",
+            "event": "terminate",
+            "timestamp": "1747411095",
+            "direction": "USER_INITIATED",
+            "start_time": "1747411036",
+            "end_time": "1747411095",
+            "duration": 59,
+            "status": "COMPLETED"
+        }
+    ]
+}
