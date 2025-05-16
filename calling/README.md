@@ -14,7 +14,7 @@ Quando sua empresa utiliza a API de WhatsApp Calling, acontece o seguinte:
 
 - As chamadas são ideais para confirmações rápidas, suporte técnico ou finalização de atendimentos iniciados via chat.
 
-## Aprenda sobre WhatsApp Templates
+## Aprenda sobre WhatsApp Calling
 
 - [API de gerenciamento da Positus](api-calling/README.md)
 - [Webhooks](api-calling/README.md#webhooks)
