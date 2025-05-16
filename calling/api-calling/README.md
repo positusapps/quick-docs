@@ -20,11 +20,11 @@ Endpoint utilizado para iniciar a chamada:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-make-body.json#L1-L4
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-make-body.json#L1-L4
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-make-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-make-response.json#L1-L3
 
 ---
 
@@ -36,11 +36,11 @@ Endpoint utilizado para aceitar a chamada:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-accept-body.json#L1-L4
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-accept-body.json#L1-L4
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-accept-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-accept-response.json#L1-L3
 
 ---
 
@@ -52,11 +52,11 @@ Endpoint utilizado para rejeitar a chamada:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-reject-body.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-reject-body.json#L1-L3
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-reject-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-reject-response.json#L1-L3
 
 
 ---
@@ -69,11 +69,11 @@ Endpoint utilizado para encerrar a chamada:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-hang-up-body.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-hang-up-body.json#L1-L3
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/json/calls-hang-up-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-hang-up-response.json#L1-L3
 
 
 ## Webhooks
@@ -91,10 +91,10 @@ https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96b
 A estrutura dos webhooks relacionados a chamadas é a seguinte:
 
 ### connect
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/webhooks/connect-webhook.json#L1-L19
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/webhooks/connect-webhook.json#L1-L19
 
 ### terminate
-https://github.com/positusapps/quick-docs/blob/39cf01e44af4c535ea53cdadc293bc96beb155f1/calling/api-calling/webhooks/terminate-webhook.json#L1-L16
+https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/webhooks/terminate-webhook.json#L1-L16
 
 ## Precisa de ajuda?
 Se sua dúvida não foi respondida ou algum conteúdo está faltando, abra uma [issue no GitHub](https://github.com/positusapps/quick-docs/issues) ou um [ticket no suporte](https://studio.posit.us/suporte).
