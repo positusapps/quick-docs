@@ -8,9 +8,9 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 ## Tópicos
 
 - [Analytics](analytics/README.md)
-- [Calling](calling/README.md)
 - [Mensagens](messages/README.md)
 - [Bloqueaio de Usuários](user-blocking/README.md)
+- [Whatsapp Calling](calling/README.md)
 - [Whatsapp Flows](flows/README.md)
 - [Whatsapp Templates](templates/README.md)
 - [Webhooks](webhooks/README.md)
