@@ -21,7 +21,7 @@ Endpoint utilizado para buscar uma permissão de chamada:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-permission-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/b80ef5294983f32ce82b889d60ed71327e7a7176/calling/api-calling/json/calls-permission-response.json#L1-L44
 
 ---
 
