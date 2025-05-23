@@ -1,0 +1,44 @@
+{
+    "number": {
+        "uuid": "5dbbbf01-2f92-4389-b512-45de86c4a66f",
+        "waba_id": "3243505955080424",
+        "user_wa_id": "5543999011234",
+        "to": "1131361234"
+    },
+    "calling": {
+        "messaging_product": "whatsapp",
+        "permission": {
+            "status": "temporary",  // (permission permanent / none)
+            "expiration_time": 1748553340
+        },
+        "actions": [
+            {
+                "action_name": "send_call_permission_request",
+                "can_perform_action": true,
+                "limits": [
+                    {
+                        "time_period": "PT24H",
+                        "max_allowed": 1,
+                        "current_usage": 0
+                    },
+                    {
+                        "time_period": "P7D",
+                        "max_allowed": 2,
+                        "current_usage": 0
+                    }
+                ]
+            },
+            {
+                "action_name": "start_call",
+                "can_perform_action": true,
+                "limits": [
+                    {
+                        "time_period": "PT24H",
+                        "max_allowed": 5,
+                        "current_usage": 0
+                    }
+                ]
+            }
+        ]
+    }
+}
