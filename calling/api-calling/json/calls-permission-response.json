@@ -8,7 +8,7 @@
     "calling": {
         "messaging_product": "whatsapp",
         "permission": {
-            "status": "temporary",  // (permissions: temporary / permanent / no_permission)
+            "status": "temporary",  // permission: ["no_permission", "temporary", "permanent"]
             "expiration_time": 1748553340
         },
         "actions": [
