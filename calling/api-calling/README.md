@@ -6,11 +6,24 @@
 
 ## API de gerenciamento da Positus
 
+- [Buscar uma permissão de chamada](#buscar-uma-chamada)
+
 - [Iniciar uma chamada](#iniciar-uma-chamada)
 - [Aceitar uma chamada](#aceitar-uma-chamada)
 - [Rejeitar uma chamada](#rejeitar-uma-chamada)
 - [Encerrar uma chamada](#encerrar-uma-chamada)
 
+### Buscar uma permissão de chamada
+
+Endpoint utilizado para buscar uma permissão de chamada:
+
+#### (GET) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/calls/call-permissions?user_wa_id={USER_PHONE_NUMBER}
+
+`Response`
+
+https://github.com/positusapps/quick-docs/blob/fa3a17ac32bffbd38f04546d5c76b6a3bd1c9ef6/calling/api-calling/json/calls-permission-response.json#L1-L44
+
+---
 
 ### Iniciar uma chamada
 
@@ -75,6 +88,7 @@ https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58
 
 https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/calling/api-calling/json/calls-hang-up-response.json#L1-L3
 
+---
 
 ## Webhooks
 
