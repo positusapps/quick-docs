@@ -15,11 +15,11 @@ Quando o **Typing Indicator** é ativado, o WhatsApp mostra ao usuário final qu
 - Enviar múltiplos indicadores antes de uma única mensagem pode causar comportamentos inesperados.
 - O envio incorreto (sem `message_id`, por exemplo) resultará em erro da API.
 
-## Envio do Indicador de Digitação (Typing Indicator)
+### Envio do Indicador de Digitação (Typing Indicator)
 
 Para enviar o Typing Indicator, utilize o seguinte endpoint:
 
-### (POST) `https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/messages/typing-indicator`
+#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/messages/typing-indicator
 
 `Body`
 
