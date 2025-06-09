@@ -15,7 +15,7 @@ Quando o **Typing Indicator** é ativado, o WhatsApp mostra ao usuário final qu
 - Enviar múltiplos indicadores antes de uma única mensagem pode causar comportamentos inesperados.
 - O envio incorreto (sem `message_id`, por exemplo) resultará em erro da API.
 
-## Integração com a API Positus
+## Envio do Indicador de Digitação (Typing Indicator)
 
 Para enviar o Typing Indicator, utilize o seguinte endpoint:
 
@@ -23,8 +23,8 @@ Para enviar o Typing Indicator, utilize o seguinte endpoint:
 
 `Body`
 
-https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/typing-indicator/json/typing-indicator-body.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/5fe5c8599b225a119375a11f9c400c7b2fe77511/typing-indicator/json/typing-indicator-body.json#L1-L3
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/f69451614d919ea243e9bff2d344134be359acea/typing-indicator/json/typing-indicator-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/5fe5c8599b225a119375a11f9c400c7b2fe77511/typing-indicator/json/typing-indicator-response.json#L1-L3
