@@ -13,6 +13,7 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 - [Whatsapp Calling](calling/README.md)
 - [Whatsapp Flows](flows/README.md)
 - [Whatsapp Templates](templates/README.md)
+- [Whatsapp Typing Indicators](typing-indicator/README.md)
 - [Webhooks](webhooks/README.md)
 
 ## Bibliotecas/Sdks
