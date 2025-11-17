@@ -19,7 +19,7 @@ Endpoint utilizado para buscar uma media pelo id da media na META:
 
 `Response`
 
-https://github.com/positusapps/quick-docs/blob/b23199cf37979f0563474af1124a99f58421496b/messages/medias/json/media-by-id-response.json#L1-L3
+https://github.com/positusapps/quick-docs/blob/fef98f2b2cd03791e21307e4c0fc1cfc01337efc/messages/medias/json/media-by-id-response.json#L1-L8
 
 ---
 
