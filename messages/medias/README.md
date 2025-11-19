@@ -15,7 +15,7 @@ As medias enviadas ou recebidas nas mensagens do whatsapp, são processadas pela
 
 Endpoint utilizado para buscar uma media pelo id da media na META:
 
-#### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/media-by-id/{ID_MEDIA}
+#### (GET) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/media-by-id/{ID_MEDIA}
 
 `Response`
 
