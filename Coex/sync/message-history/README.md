@@ -14,7 +14,7 @@ Sincronize os historicos de mensagens do seu número de whatsapp com o Coex da M
 
 Endpoint utilizado para sincronizar os históricos de mensagens:
 
-### (POST) https://api.positus.global/v2/whatsapp/numbers/{number}/onboarding-smb-app/sync-message-history
+### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/onboarding-smb-app/sync-message-history
 
 ## Evento Webhook
 

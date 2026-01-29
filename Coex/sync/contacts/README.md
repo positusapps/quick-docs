@@ -15,7 +15,7 @@ Sincronize os contatos do seu número de whatsapp com o Coex da META
 
 Endpoint utilizado para sincronizar os contatos:
 
-### (POST) https://api.positus.global/v2/whatsapp/numbers/{number}/onboarding-smb-app/sync-contacts
+### (POST) https://api.positus.global/v2/whatsapp/numbers/{NUMBER_ID}/onboarding-smb-app/sync-contacts
 
 ## Evento Webhook
 
