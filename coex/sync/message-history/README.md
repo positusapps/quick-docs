@@ -33,7 +33,7 @@ Este evento contém partes do histórico de mensagens sincronizado. A sincroniza
 
 `Payload`
 
-https://github.com/positusapps/quick-docs/blob/e28abe037f7afbf256485a05cbf82a57c3d9daf8/coex/sync/message-history/json/payload.json#L1-L86
+https://github.com/positusapps/quick-docs/blob/33d0daf2e05a27e78c9f6cf7298fc3ee397855f7/coex/sync/message-history/json/payload.json#L1-L86
 
 ## Precisa de ajuda?
 

@@ -29,7 +29,7 @@ Este evento é disparado quando há uma atualização no estado da sincronizaç�
 
 `Payload`
 
-https://github.com/positusapps/quick-docs/blob/e28abe037f7afbf256485a05cbf82a57c3d9daf8/coex/sync/contacts/json/payload.json#L1-L34
+https://github.com/positusapps/quick-docs/blob/33d0daf2e05a27e78c9f6cf7298fc3ee397855f7/coex/sync/contacts/json/payload.json#L1-L34
 
 
 ## Precisa de ajuda?
