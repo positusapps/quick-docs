@@ -15,7 +15,7 @@ Este repositório contém um conjunto de documentos relacionados a alguns recurs
 - [Whatsapp Templates](templates/README.md)
 - [Whatsapp Typing Indicators](typing-indicator/README.md)
 - [Webhooks](webhooks/README.md)
-- [Coex sincronizações](Coex/sync/README.md)
+- [Coex sincronizações](coex/sync/README.md)
 
 ## Bibliotecas/Sdks
 
