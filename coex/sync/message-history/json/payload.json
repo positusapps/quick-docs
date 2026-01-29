@@ -1,0 +1,86 @@
+{
+    "object": "whatsapp_business_account",
+    "entry": [
+        {
+            "id": "102290129340398",
+            "changes": [
+                {
+                    "value": {
+                        "messaging_product": "whatsapp",
+                        "metadata": {
+                            "display_phone_number": "xxxxxxxxxxx",
+                            "phone_number_id": "xxxxxxxxxxx"
+                        },
+                        "history": [
+                            {
+                                "metadata": {
+                                    "phase": 0,
+                                    "chunk_order": 1,
+                                    "progress": 55
+                                },
+                                "threads": [
+                                    {
+                                        "id": "xxxxxxxxxxx",
+                                        "messages": [
+                                            {
+                                                "from": "xxxxxxxxxxx",
+                                                "id": "wamid.xyz",
+                                                "timestamp": "1739230955",
+                                                "type": "text",
+                                                "text": {
+                                                    "body": "mensagem1"
+                                                },
+                                                "history_context": {
+                                                    "status": "READ"
+                                                }
+                                            },
+                                            {
+                                                "from": "xxxxxxxxxxx",
+                                                "id": "wamid.abc",
+                                                "timestamp": "1739230970",
+                                                "type": "media_placeholder",
+                                                "history_context": {
+                                                    "status": "PLAYED"
+                                                }
+                                            },
+                                            {
+                                                "from": "xxxxxxxxxxx",
+                                                "id": "wamid.jkl",
+                                                "timestamp": "1739230970",
+                                                "type": "text",
+                                                "text": {
+                                                    "body": "mensagem2"
+                                                },
+                                                "history_context": {
+                                                    "status": "READ"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "xxxxxxxxxxx",
+                                        "messages": [
+                                            {
+                                                "from": "xxxxxxxxxxx",
+                                                "id": "wamid.rty",
+                                                "timestamp": "1739230970",
+                                                "type": "text",
+                                                "text": {
+                                                    "body": "mensagem3"
+                                                },
+                                                "history_context": {
+                                                    "status": "DELIVERED"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "field": "history"
+                }
+            ]
+        }
+    ]
+}

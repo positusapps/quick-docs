@@ -1,0 +1,34 @@
+{
+    "object": "whatsapp_business_account",
+    "entry": [
+        {
+            "id": "xxxxxxxxxxxxxxxx",
+            "changes": [
+                {
+                    "value": {
+                        "messaging_product": "whatsapp",
+                        "metadata": {
+                            "display_phone_number": "xxxxxxxxxxxxxxxx",
+                            "phone_number_id": "xxxxxxxxxxxxxxxx"
+                        },
+                        "state_sync": [
+                            {
+                                "type": "contact",
+                                "contact": {
+                                    "full_name": "Name Lastname",
+                                    "first_name": "Name",
+                                    "phone_number": "xxxxxxxxxxxxxxxx"
+                                },
+                                "action": "add",
+                                "metadata": {
+                                    "timestamp": "1739321024"
+                                }
+                            }
+                        ]
+                    },
+                    "field": "smb_app_state_sync"
+                }
+            ]
+        }
+    ]
+}
